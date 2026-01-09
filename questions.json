@@ -1,0 +1,6202 @@
+[
+  {
+    "id": 1,
+    "questionDE": "Wie heisst die deutsche Verfassung?",
+    "questionEN": "What is the German constitution called?",
+    "answersDE": [
+      "Volksgesetz",
+      "Bundesgesetz",
+      "Deutsches Gesetz",
+      "Grundgesetz"
+    ],
+    "answersEN": [
+      "People's Law",
+      "Federal Law",
+      "German Law",
+      "Basic Law"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 2,
+    "questionDE": "Welches Recht gehoert zu den Grundrechten?",
+    "questionEN": "Which right is a fundamental right?",
+    "answersDE": [
+      "Waffenbesitz",
+      "Faustrecht",
+      "Meinungsfreiheit",
+      "Selbstjustiz"
+    ],
+    "answersEN": [
+      "Weapon ownership",
+      "Mob justice",
+      "Freedom of opinion",
+      "Vigilante justice"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 3,
+    "questionDE": "Was ist mit dem Grundgesetz vereinbar?",
+    "questionEN": "What is compatible with the Basic Law?",
+    "answersDE": [
+      "Koerperstrafen",
+      "Folter",
+      "Todesstrafe",
+      "Geldstrafen"
+    ],
+    "answersEN": [
+      "Corporal punishment",
+      "Torture",
+      "Death penalty",
+      "Monetary fines"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 4,
+    "questionDE": "Wie viele Bundeslaender hat Deutschland?",
+    "questionEN": "How many federal states does Germany have?",
+    "answersDE": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answersEN": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 5,
+    "questionDE": "Welche Staatsform hat Deutschland?",
+    "questionEN": "What form of government does Germany have?",
+    "answersDE": [
+      "Monarchie",
+      "Diktatur",
+      "Republik",
+      "Fuerstentum"
+    ],
+    "answersEN": [
+      "Monarchy",
+      "Dictatorship",
+      "Republic",
+      "Principality"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 6,
+    "questionDE": "Was ist keine Staatsgewalt in Deutschland?",
+    "questionEN": "What is not a state power in Germany?",
+    "answersDE": [
+      "Gesetzgebung",
+      "Regierung",
+      "Presse",
+      "Rechtsprechung"
+    ],
+    "answersEN": [
+      "Legislation",
+      "Government",
+      "Press",
+      "Judiciary"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 7,
+    "questionDE": "Die Bundesrepublik ist ein demokratischer und sozialer...",
+    "questionEN": "The Federal Republic is a democratic and social...",
+    "answersDE": [
+      "Staatenbund",
+      "Bundesstaat",
+      "Staatengemeinschaft",
+      "Zentralstaat"
+    ],
+    "answersEN": [
+      "Confederation",
+      "Federal state",
+      "Community of states",
+      "Centralized state"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 8,
+    "questionDE": "Mit welchen Worten beginnt die Nationalhymne?",
+    "questionEN": "With what words does the national anthem begin?",
+    "answersDE": [
+      "Voelker, hoert die Signale",
+      "Einigkeit und Recht und Freiheit",
+      "Freude, schoener Goetterfunken",
+      "Deutschland einig Vaterland"
+    ],
+    "answersEN": [
+      "Peoples, hear the signals",
+      "Unity and justice and freedom",
+      "Joy, beautiful divine spark",
+      "Germany united fatherland"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 9,
+    "questionDE": "Wer erlasst neue Gesetze in Deutschland?",
+    "questionEN": "Who enacts new laws in Germany?",
+    "answersDE": [
+      "Die Regierung",
+      "Das Parlament",
+      "Die Gerichte",
+      "Die Polizei"
+    ],
+    "answersEN": [
+      "The government",
+      "Parliament",
+      "The courts",
+      "The police"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 10,
+    "questionDE": "Das Wappentier Deutschlands ist...",
+    "questionEN": "Germany's heraldic animal is...",
+    "answersDE": [
+      "Der Loewe",
+      "Der Adler",
+      "Der Baer",
+      "Das Pferd"
+    ],
+    "answersEN": [
+      "The lion",
+      "The eagle",
+      "The bear",
+      "The horse"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 11,
+    "questionDE": "Wer waehlt den Bundeskanzler?",
+    "questionEN": "Who elects the Chancellor?",
+    "answersDE": [
+      "Der Bundesrat",
+      "Die Bundesversammlung",
+      "Das Volk",
+      "Der Bundestag"
+    ],
+    "answersEN": [
+      "The Federal Council",
+      "The Federal Assembly",
+      "The people",
+      "The Bundestag"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 12,
+    "questionDE": "Wer ist aktuell Bundespraesident?",
+    "questionEN": "Who is the current Federal President?",
+    "answersDE": [
+      "Frank-Walter Steinmeier",
+      "Baerbel Bas",
+      "Bodo Ramelow",
+      "Joachim Gauck"
+    ],
+    "answersEN": [
+      "Frank-Walter Steinmeier",
+      "Baerbel Bas",
+      "Bodo Ramelow",
+      "Joachim Gauck"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 13,
+    "questionDE": "Ab welchem Alter darf man bei Bundestagswahlen waehlen?",
+    "questionEN": "At what age can you vote in federal elections?",
+    "answersDE": [
+      "16",
+      "18",
+      "21",
+      "23"
+    ],
+    "answersEN": [
+      "16",
+      "18",
+      "21",
+      "23"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 14,
+    "questionDE": "Wie lange dauert eine Legislaturperiode des Bundestages?",
+    "questionEN": "How long is a Bundestag legislative term?",
+    "answersDE": [
+      "2 Jahre",
+      "4 Jahre",
+      "6 Jahre",
+      "8 Jahre"
+    ],
+    "answersEN": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 15,
+    "questionDE": "Welches Gericht legt das Grundgesetz aus?",
+    "questionEN": "Which court interprets the Basic Law?",
+    "answersDE": [
+      "Oberlandesgericht",
+      "Amtsgericht",
+      "Bundesverfassungsgericht",
+      "Verwaltungsgericht"
+    ],
+    "answersEN": [
+      "Higher Regional Court",
+      "Local Court",
+      "Federal Constitutional Court",
+      "Administrative Court"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 16,
+    "questionDE": "Was bedeutet Meinungsfreiheit?",
+    "questionEN": "What does freedom of opinion mean?",
+    "answersDE": [
+      "Man darf Passanten beschimpfen",
+      "Man darf seine Meinung aeussern",
+      "Man darf Nazi-Symbole tragen",
+      "Man darf nur Regierungsmeinung sagen"
+    ],
+    "answersEN": [
+      "You can insult passersby",
+      "You can express your opinion",
+      "You can wear Nazi symbols",
+      "You can only say government opinion"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 17,
+    "questionDE": "Was verbietet das Grundgesetz?",
+    "questionEN": "What does the Basic Law prohibit?",
+    "answersDE": [
+      "Militaerdienst",
+      "Zwangsarbeit",
+      "Freie Berufswahl",
+      "Arbeit im Ausland"
+    ],
+    "answersEN": [
+      "Military service",
+      "Forced labor",
+      "Free career choice",
+      "Working abroad"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 18,
+    "questionDE": "Welches Grundrecht steht in Artikel 1?",
+    "questionEN": "Which right is in Article 1?",
+    "answersDE": [
+      "Unantastbarkeit der Menschenwuerde",
+      "Recht auf Leben",
+      "Religionsfreiheit",
+      "Meinungsfreiheit"
+    ],
+    "answersEN": [
+      "Inviolability of human dignity",
+      "Right to life",
+      "Religious freedom",
+      "Freedom of opinion"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 19,
+    "questionDE": "Was ist Freizuegigkeit?",
+    "questionEN": "What is freedom of movement?",
+    "answersDE": [
+      "Man darf Wohnort waehlen",
+      "Man darf Beruf wechseln",
+      "Man darf Religion wechseln",
+      "Man darf leicht bekleidet sein"
+    ],
+    "answersEN": [
+      "You can choose residence",
+      "You can change jobs",
+      "You can change religion",
+      "You can dress lightly"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 20,
+    "questionDE": "Eine Partei die Diktatur will ist...",
+    "questionEN": "A party wanting dictatorship is...",
+    "answersDE": [
+      "tolerant",
+      "konform",
+      "rechtstreu",
+      "verfassungswidrig"
+    ],
+    "answersEN": [
+      "tolerant",
+      "conformist",
+      "law-abiding",
+      "unconstitutional"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 21,
+    "questionDE": "Die Zusammenarbeit von Parteien heisst...",
+    "questionEN": "Party cooperation is called...",
+    "answersDE": [
+      "Einheit",
+      "Koalition",
+      "Ministerium",
+      "Fraktion"
+    ],
+    "answersEN": [
+      "unity",
+      "coalition",
+      "ministry",
+      "faction"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 22,
+    "questionDE": "Staat und Religion sind in Deutschland...",
+    "questionEN": "State and religion in Germany are...",
+    "answersDE": [
+      "getrennt",
+      "vereint",
+      "abhaengig",
+      "verbunden"
+    ],
+    "answersEN": [
+      "separated",
+      "united",
+      "dependent",
+      "connected"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 23,
+    "questionDE": "Wie finanziert der Staat Sozialversicherung?",
+    "questionEN": "How does the state finance social insurance?",
+    "answersDE": [
+      "Kirchensteuern",
+      "Sozialabgaben",
+      "Spenden",
+      "Vereinsbeitraege"
+    ],
+    "answersEN": [
+      "Church taxes",
+      "Social contributions",
+      "Donations",
+      "Club fees"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 24,
+    "questionDE": "Welche Versicherung gehoert zur Sozialversicherung?",
+    "questionEN": "Which insurance is social insurance?",
+    "answersDE": [
+      "Krankenversicherung",
+      "Autoversicherung",
+      "Gebaeudeversicherung",
+      "Haftpflichtversicherung"
+    ],
+    "answersEN": [
+      "Health insurance",
+      "Car insurance",
+      "Building insurance",
+      "Liability insurance"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 25,
+    "questionDE": "Wie heissen Regierungschefs der Laender?",
+    "questionEN": "What are state government heads called?",
+    "answersDE": [
+      "Erster Minister",
+      "Premierminister",
+      "Senator",
+      "Ministerpraesident"
+    ],
+    "answersEN": [
+      "First Minister",
+      "Prime Minister",
+      "Senator",
+      "Minister President"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 26,
+    "questionDE": "Was hat jedes Bundesland?",
+    "questionEN": "What does every state have?",
+    "answersDE": [
+      "Eigenen Aussenminister",
+      "Eigene Waehrung",
+      "Eigene Armee",
+      "Eigene Regierung"
+    ],
+    "answersEN": [
+      "Own foreign minister",
+      "Own currency",
+      "Own army",
+      "Own government"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 27,
+    "questionDE": "Warum gibt es mehrere Parteien?",
+    "questionEN": "Why are there multiple parties?",
+    "answersDE": [
+      "Um verschiedene Meinungen zu vertreten",
+      "Um Korruption zu begrenzen",
+      "Um Demonstrationen zu verhindern",
+      "Um Wettbewerb zu foerdern"
+    ],
+    "answersEN": [
+      "To represent different opinions",
+      "To limit corruption",
+      "To prevent demonstrations",
+      "To promote competition"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 28,
+    "questionDE": "Was gehoert nicht zu einer Demokratie?",
+    "questionEN": "What is not part of democracy?",
+    "answersDE": [
+      "Regelmaessige Wahlen",
+      "Pressezensur",
+      "Meinungsfreiheit",
+      "Mehrere Parteien"
+    ],
+    "answersEN": [
+      "Regular elections",
+      "Press censorship",
+      "Freedom of opinion",
+      "Multiple parties"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 29,
+    "questionDE": "Wer bestimmt die Schulpolitik?",
+    "questionEN": "Who determines school policy?",
+    "answersDE": [
+      "Die Lehrer",
+      "Die Bundeslaender",
+      "Das Familienministerium",
+      "Die Universitaeten"
+    ],
+    "answersEN": [
+      "The teachers",
+      "The federal states",
+      "The family ministry",
+      "The universities"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 30,
+    "questionDE": "Deutschlands Wirtschaftssystem heisst...",
+    "questionEN": "Germany's economic system is called...",
+    "answersDE": [
+      "Freie Zentralwirtschaft",
+      "Soziale Marktwirtschaft",
+      "Kontrollierte Zentralwirtschaft",
+      "Planwirtschaft"
+    ],
+    "answersEN": [
+      "Free central economy",
+      "Social market economy",
+      "Controlled central economy",
+      "Planned economy"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 31,
+    "questionDE": "Was bedeutet Volkssouveraenitaet?",
+    "questionEN": "What does popular sovereignty mean?",
+    "answersDE": [
+      "Der Koenig herrscht",
+      "Das Gericht steht ueber allem",
+      "Verbaende ueben Macht aus",
+      "Staatsgewalt geht vom Volk aus"
+    ],
+    "answersEN": [
+      "The king rules",
+      "Court is above all",
+      "Associations exercise power",
+      "State power comes from the people"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 32,
+    "questionDE": "Wahl des Landesparlaments heisst...",
+    "questionEN": "State parliament election is called...",
+    "answersDE": [
+      "Kommunalwahl",
+      "Landtagswahl",
+      "Europawahl",
+      "Bundestagswahl"
+    ],
+    "answersEN": [
+      "Local election",
+      "State election",
+      "European election",
+      "Federal election"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 33,
+    "questionDE": "Was gehoert nicht zur Exekutive?",
+    "questionEN": "What is not part of the executive?",
+    "answersDE": [
+      "Die Polizei",
+      "Die Gerichte",
+      "Das Finanzamt",
+      "Die Ministerien"
+    ],
+    "answersEN": [
+      "The police",
+      "The courts",
+      "The tax office",
+      "The ministries"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 34,
+    "questionDE": "Deutschland ist gegliedert in...",
+    "questionEN": "Germany is structured into...",
+    "answersDE": [
+      "Vier Besatzungszonen",
+      "Ost und West",
+      "16 Kantone",
+      "Bund, Laender, Kommunen"
+    ],
+    "answersEN": [
+      "Four occupation zones",
+      "East and West",
+      "16 cantons",
+      "Federation, states, municipalities"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 35,
+    "questionDE": "Hauptaufgabe der Bundeslaender?",
+    "questionEN": "Main task of federal states?",
+    "answersDE": [
+      "Verteidigungspolitik",
+      "Aussenpolitik",
+      "Wirtschaftspolitik",
+      "Schulpolitik"
+    ],
+    "answersEN": [
+      "Defense policy",
+      "Foreign policy",
+      "Economic policy",
+      "School policy"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 36,
+    "questionDE": "Der Bundespraesident schlaegt vor...",
+    "questionEN": "The Federal President proposes...",
+    "answersDE": [
+      "Er regiert das Land",
+      "Er kontrolliert Parteien",
+      "Er waehlt Minister",
+      "Den Kanzler zur Wahl"
+    ],
+    "answersEN": [
+      "He governs the country",
+      "He controls parties",
+      "He selects ministers",
+      "The Chancellor for election"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 37,
+    "questionDE": "Wo arbeitet der Bundeskanzler meist?",
+    "questionEN": "Where does the Chancellor mostly work?",
+    "answersDE": [
+      "In Bonn",
+      "In Berlin",
+      "Auf Schloss Meseberg",
+      "Auf Schloss Bellevue"
+    ],
+    "answersEN": [
+      "In Bonn",
+      "In Berlin",
+      "At Meseberg Castle",
+      "At Bellevue Castle"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 38,
+    "questionDE": "Wer ist aktuell Bundeskanzler?",
+    "questionEN": "Who is the current Chancellor?",
+    "answersDE": [
+      "Gerhard Schroeder",
+      "Angela Merkel",
+      "Ursula von der Leyen",
+      "Friedrich Merz"
+    ],
+    "answersEN": [
+      "Gerhard Schroeder",
+      "Angela Merkel",
+      "Ursula von der Leyen",
+      "Friedrich Merz"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 39,
+    "questionDE": "Wie heisst das Parlament fuer ganz Deutschland?",
+    "questionEN": "What is the parliament for all Germany called?",
+    "answersDE": [
+      "Bundesversammlung",
+      "Volkskammer",
+      "Bundestag",
+      "Bundesgerichtshof"
+    ],
+    "answersEN": [
+      "Federal Assembly",
+      "People's Chamber",
+      "Bundestag",
+      "Federal Court"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 40,
+    "questionDE": "Wofuer steht CDU?",
+    "questionEN": "What does CDU stand for?",
+    "answersDE": [
+      "Christliche Deutsche Union",
+      "Club Deutscher Unternehmer",
+      "Christlicher Deutscher Umweltschutz",
+      "Christlich Demokratische Union"
+    ],
+    "answersEN": [
+      "Christian German Union",
+      "Club of German Entrepreneurs",
+      "Christian German Environmental Protection",
+      "Christian Democratic Union"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 41,
+    "questionDE": "Was ist die Bundeswehr?",
+    "questionEN": "What is the Bundeswehr?",
+    "answersDE": [
+      "Die deutsche Polizei",
+      "Ein deutscher Hafen",
+      "Eine Buergerinitiative",
+      "Die deutsche Armee"
+    ],
+    "answersEN": [
+      "The German police",
+      "A German port",
+      "A citizens initiative",
+      "The German army"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 42,
+    "questionDE": "Wofuer steht SPD?",
+    "questionEN": "What does SPD stand for?",
+    "answersDE": [
+      "Sozialistische Partei",
+      "Sozialpolitische Partei",
+      "Sozialdemokratische Partei Deutschlands",
+      "Sozialgerechte Partei"
+    ],
+    "answersEN": [
+      "Socialist Party",
+      "Social Political Party",
+      "Social Democratic Party of Germany",
+      "Socially Just Party"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 43,
+    "questionDE": "Wofuer steht FDP?",
+    "questionEN": "What does FDP stand for?",
+    "answersDE": [
+      "Friedliche Demonstrative Partei",
+      "Freie Deutschland Partei",
+      "Fuehrende Demokratische Partei",
+      "Freie Demokratische Partei"
+    ],
+    "answersEN": [
+      "Peaceful Demonstrative Party",
+      "Free Germany Party",
+      "Leading Democratic Party",
+      "Free Democratic Party"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 44,
+    "questionDE": "Wer leitet das Bundeskabinett?",
+    "questionEN": "Who leads the federal cabinet?",
+    "answersDE": [
+      "Der Bundestagspraesident",
+      "Der Bundespraesident",
+      "Der Bundeskanzler",
+      "Der Bundesratspraesident"
+    ],
+    "answersEN": [
+      "Bundestag President",
+      "Federal President",
+      "Federal Chancellor",
+      "Bundesrat President"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 45,
+    "questionDE": "Wer bildet den Bundesrat?",
+    "questionEN": "Who forms the Bundesrat?",
+    "answersDE": [
+      "Bundestagsabgeordnete",
+      "Bundesminister",
+      "Regierungsvertreter der Laender",
+      "Parteimitglieder"
+    ],
+    "answersEN": [
+      "Bundestag members",
+      "Federal ministers",
+      "State government representatives",
+      "Party members"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 46,
+    "questionDE": "Wer waehlt den Bundespraesidenten?",
+    "questionEN": "Who elects the Federal President?",
+    "answersDE": [
+      "Die Bundesversammlung",
+      "Der Bundesrat",
+      "Das Bundesparlament",
+      "Das Bundesverfassungsgericht"
+    ],
+    "answersEN": [
+      "The Federal Assembly",
+      "The Bundesrat",
+      "The Federal Parliament",
+      "The Constitutional Court"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 47,
+    "questionDE": "Wer ist Staatsoberhaupt?",
+    "questionEN": "Who is the head of state?",
+    "answersDE": [
+      "Der Bundeskanzler",
+      "Der Bundespraesident",
+      "Der Bundesratspraesident",
+      "Der Bundestagspraesident"
+    ],
+    "answersEN": [
+      "The Chancellor",
+      "The Federal President",
+      "The Bundesrat President",
+      "The Bundestag President"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 48,
+    "questionDE": "Die Opposition im Bundestag...",
+    "questionEN": "The opposition in the Bundestag...",
+    "answersDE": [
+      "kontrolliert die Regierung",
+      "entscheidet ueber Minister",
+      "bestimmt Bundesrat",
+      "schlaegt Regierungschef vor"
+    ],
+    "answersEN": [
+      "controls the government",
+      "decides on ministers",
+      "determines Bundesrat",
+      "proposes government head"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 49,
+    "questionDE": "Zusammenschluss von Abgeordneten einer Partei heisst...",
+    "questionEN": "Union of MPs from one party is called...",
+    "answersDE": [
+      "Verband",
+      "Aeltestenrat",
+      "Fraktion",
+      "Opposition"
+    ],
+    "answersEN": [
+      "Association",
+      "Council of Elders",
+      "Faction",
+      "Opposition"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 50,
+    "questionDE": "Laender wirken bei Bundesgesetzen mit durch...",
+    "questionEN": "States participate in federal legislation through...",
+    "answersDE": [
+      "den Bundesrat",
+      "die Bundesversammlung",
+      "den Bundestag",
+      "die Bundesregierung"
+    ],
+    "answersEN": [
+      "the Bundesrat",
+      "the Federal Assembly",
+      "the Bundestag",
+      "the Federal Government"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 51,
+    "questionDE": "Wofuer steht CSU?",
+    "questionEN": "What does CSU stand for?",
+    "answersDE": [
+      "Christlich Sichere Union",
+      "Christlich Sueddeutsche Union",
+      "Christlicher Sozialer Unternehmerverband",
+      "Christlich Soziale Union"
+    ],
+    "answersEN": [
+      "Christian Safe Union",
+      "Christian South German Union",
+      "Christian Social Business Association",
+      "Christian Social Union"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 52,
+    "questionDE": "Mehr Zweitstimmen bedeutet...",
+    "questionEN": "More second votes means...",
+    "answersDE": [
+      "Mehr Sitze im Parlament",
+      "Weniger Erststimmen",
+      "Mehr Direktkandidaten",
+      "Groesseres Koalitionsrisiko"
+    ],
+    "answersEN": [
+      "More seats in parliament",
+      "Fewer first votes",
+      "More direct candidates",
+      "Greater coalition risk"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 53,
+    "questionDE": "Kinder in Deutschland muessen...",
+    "questionEN": "Children in Germany must...",
+    "answersDE": [
+      "Waehlen",
+      "Zur Schule gehen",
+      "Schweigen",
+      "Religion ausueben"
+    ],
+    "answersEN": [
+      "Vote",
+      "Attend school",
+      "Stay silent",
+      "Practice religion"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 54,
+    "questionDE": "Leugnung des Holocaust wird bestraft mit...",
+    "questionEN": "Holocaust denial is punished with...",
+    "answersDE": [
+      "Kuerzung Sozialleistungen",
+      "Bis 100 Stunden Arbeit",
+      "Keine Strafe",
+      "Bis 5 Jahre Gefaengnis"
+    ],
+    "answersEN": [
+      "Reduced social benefits",
+      "Up to 100 hours work",
+      "No punishment",
+      "Up to 5 years prison"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 55,
+    "questionDE": "Was muss man zahlen wenn man arbeitet?",
+    "questionEN": "What must you pay when employed?",
+    "answersDE": [
+      "Sozialversicherung",
+      "Sozialhilfe",
+      "Kindergeld",
+      "Wohngeld"
+    ],
+    "answersEN": [
+      "Social insurance",
+      "Social welfare",
+      "Child benefit",
+      "Housing benefit"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 56,
+    "questionDE": "Wer zahlt Sozialversicherung?",
+    "questionEN": "Who pays social insurance?",
+    "answersDE": [
+      "Arbeitgeber und Arbeitnehmer",
+      "Nur Arbeitnehmer",
+      "Alle Buerger",
+      "Nur Arbeitgeber"
+    ],
+    "answersEN": [
+      "Employers and employees",
+      "Only employees",
+      "All citizens",
+      "Only employers"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 57,
+    "questionDE": "Was gehoert nicht zur Sozialversicherung?",
+    "questionEN": "What is not social insurance?",
+    "answersDE": [
+      "Rentenversicherung",
+      "Lebensversicherung",
+      "Arbeitslosenversicherung",
+      "Pflegeversicherung"
+    ],
+    "answersEN": [
+      "Pension insurance",
+      "Life insurance",
+      "Unemployment insurance",
+      "Care insurance"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 58,
+    "questionDE": "Gewerkschaften vertreten...",
+    "questionEN": "Trade unions represent...",
+    "answersDE": [
+      "Jugendliche",
+      "Arbeitnehmer",
+      "Rentner",
+      "Arbeitgeber"
+    ],
+    "answersEN": [
+      "Young people",
+      "Employees",
+      "Retirees",
+      "Employers"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 59,
+    "questionDE": "Ehrenzeichen fuer besondere Leistung heisst...",
+    "questionEN": "Honor for special achievement is called...",
+    "answersDE": [
+      "Bundesadler",
+      "Bundesverdienstkreuz",
+      "Vaterlandischer Verdienstorden",
+      "Held der DDR"
+    ],
+    "answersEN": [
+      "Federal Eagle",
+      "Federal Cross of Merit",
+      "Patriotic Order of Merit",
+      "Hero of the GDR"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 60,
+    "questionDE": "Ampelkoalition besteht aus...",
+    "questionEN": "Traffic light coalition consists of...",
+    "answersDE": [
+      "CDU und CSU",
+      "SPD, FDP und Gruene",
+      "CSU, Linke und Gruene",
+      "CDU und SPD"
+    ],
+    "answersEN": [
+      "CDU and CSU",
+      "SPD, FDP and Greens",
+      "CSU, Left and Greens",
+      "CDU and SPD"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 61,
+    "questionDE": "Eine Frau darf nicht gekuendigt werden wegen...",
+    "questionEN": "A woman cannot be fired for...",
+    "answersDE": [
+      "Langer Krankheit",
+      "Haeufiger Verspaetung",
+      "Privater Taetigkeit bei Arbeit",
+      "Schwangerschaft"
+    ],
+    "answersEN": [
+      "Long illness",
+      "Frequent tardiness",
+      "Private activity at work",
+      "Pregnancy"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 62,
+    "questionDE": "Wahlhelfer zaehlen...",
+    "questionEN": "Poll workers count...",
+    "answersDE": [
+      "Helfen Alten beim Waehlen",
+      "Schreiben Wahlbenachrichtigungen",
+      "Teilen Zwischenergebnisse mit",
+      "Die Stimmen"
+    ],
+    "answersEN": [
+      "Help elderly vote",
+      "Write notifications",
+      "Share interim results",
+      "The votes"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 63,
+    "questionDE": "Wer darf bei Bundestagswahlen waehlen?",
+    "questionEN": "Who may vote in federal elections?",
+    "answersDE": [
+      "Jeder der dort wohnt",
+      "Deutsche ab 18",
+      "Bewohner seit 3 Jahren",
+      "Buerger ab 21"
+    ],
+    "answersEN": [
+      "Anyone living there",
+      "Germans 18+",
+      "Residents 3+ years",
+      "Citizens 21+"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 64,
+    "questionDE": "Alle wieviel Jahre wird der Bundestag gewaehlt?",
+    "questionEN": "How often is the Bundestag elected?",
+    "answersDE": [
+      "Alle 3 Jahre",
+      "Alle 4 Jahre",
+      "Alle 5 Jahre",
+      "Alle 6 Jahre"
+    ],
+    "answersEN": [
+      "Every 3 years",
+      "Every 4 years",
+      "Every 5 years",
+      "Every 6 years"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 65,
+    "questionDE": "Was ist bei Israel verboten?",
+    "questionEN": "What is forbidden regarding Israel?",
+    "answersDE": [
+      "Politik kritisieren",
+      "Israelische Flagge zeigen",
+      "Politik diskutieren",
+      "Oeffentlich zur Vernichtung aufrufen"
+    ],
+    "answersEN": [
+      "Criticize policies",
+      "Show Israeli flag",
+      "Discuss policies",
+      "Publicly call for destruction"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 66,
+    "questionDE": "Wahlen in Deutschland sind...",
+    "questionEN": "Elections in Germany are...",
+    "answersDE": [
+      "Spezifisch",
+      "Geheim",
+      "Berufsabhaengig",
+      "Geschlechtsabhaengig"
+    ],
+    "answersEN": [
+      "Specific",
+      "Secret",
+      "Profession-based",
+      "Gender-dependent"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 67,
+    "questionDE": "Wahlgewinner ist die Partei mit...",
+    "questionEN": "Election winner is the party with...",
+    "answersDE": [
+      "Den meisten Stimmen",
+      "Den meisten maennlichen Waehlern",
+      "Den meisten Arbeiterstimmen",
+      "Den meisten Erststimmen fuer Kanzler"
+    ],
+    "answersEN": [
+      "Most votes",
+      "Most male voters",
+      "Most worker votes",
+      "Most first votes for chancellor"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 68,
+    "questionDE": "An Wahlen teilnehmen ist...",
+    "questionEN": "Participating in elections is...",
+    "answersDE": [
+      "Eine Pflicht",
+      "Ein Recht",
+      "Erzwungen",
+      "Eine Last"
+    ],
+    "answersEN": [
+      "An obligation",
+      "A right",
+      "Forced",
+      "A burden"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 69,
+    "questionDE": "Aktives Wahlrecht bedeutet...",
+    "questionEN": "Active voting right means...",
+    "answersDE": [
+      "Man kann gewaehlt werden",
+      "Man muss waehlen",
+      "Man darf waehlen",
+      "Man muss Stimmen zaehlen"
+    ],
+    "answersEN": [
+      "You can be elected",
+      "You must vote",
+      "You can vote",
+      "You must count votes"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 70,
+    "questionDE": "Mindestanteil fuer Einzug in Bundestag?",
+    "questionEN": "Minimum percentage for Bundestag entry?",
+    "answersDE": [
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "answersEN": [
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 71,
+    "questionDE": "Freie Wahlen bedeuten...",
+    "questionEN": "Free elections mean...",
+    "answersDE": [
+      "Straftaeter koennen nicht waehlen",
+      "Arbeitgeber muss freigeben",
+      "Kein Zwang bei Wahlentscheidung",
+      "Ort frei waehlbar"
+    ],
+    "answersEN": [
+      "Criminals cannot vote",
+      "Employer must give time off",
+      "No coercion on voting choice",
+      "Location freely choosable"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 72,
+    "questionDE": "Deutsches Wahlsystem ist...",
+    "questionEN": "German electoral system is...",
+    "answersDE": [
+      "Zensuswahlrecht",
+      "Dreiklassenwahlrecht",
+      "Mehrheits- und Verhaeltniswahlrecht",
+      "Allgemeines Maennerwahlrecht"
+    ],
+    "answersEN": [
+      "Census-based voting",
+      "Three-class voting",
+      "Majority and proportional voting",
+      "General male suffrage"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 73,
+    "questionDE": "5%-Huerde bedeutet...",
+    "questionEN": "5% threshold means...",
+    "answersDE": [
+      "Abstimmungsregelung",
+      "Anwesenheitskontrolle",
+      "Mindestanteil fuer Parlamentseinzug",
+      "Anwesenheit im Bundesrat"
+    ],
+    "answersEN": [
+      "Voting regulation",
+      "Attendance check",
+      "Minimum share for parliament entry",
+      "Attendance in Bundesrat"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 74,
+    "questionDE": "Bundestagswahl ist Wahl...",
+    "questionEN": "Federal election is election of...",
+    "answersDE": [
+      "Des Bundeskanzlers",
+      "Der Landesparlamente",
+      "Des Parlaments fuer Deutschland",
+      "Des Bundespraesidenten"
+    ],
+    "answersEN": [
+      "The Chancellor",
+      "State parliaments",
+      "Parliament for Germany",
+      "Federal President"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 75,
+    "questionDE": "Regelmaessige Wahlen ermoeglichen...",
+    "questionEN": "Regular elections enable...",
+    "answersDE": [
+      "Buerger zum Waehlen zu zwingen",
+      "Regierungswechsel nach Waehlerwillen",
+      "Bestehende Gesetze zu erhalten",
+      "Armen mehr Macht zu geben"
+    ],
+    "answersEN": [
+      "Forcing citizens to vote",
+      "Government change by voter will",
+      "Preserving existing laws",
+      "Giving poor more power"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 76,
+    "questionDE": "Wahlberechtigte erhalten vor der Wahl...",
+    "questionEN": "Eligible voters receive before election...",
+    "answersDE": [
+      "Wahlbenachrichtigung von der Gemeinde",
+      "Wahlerlaubnis vom Bundespraesidenten",
+      "Benachrichtigung von Bundesversammlung",
+      "Benachrichtigung vom Pfarramt"
+    ],
+    "answersEN": [
+      "Notification from municipality",
+      "Permission from Federal President",
+      "Notification from Federal Assembly",
+      "Notification from parish office"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 77,
+    "questionDE": "Warum gibt es die 5%-Huerde?",
+    "questionEN": "Why is there the 5% threshold?",
+    "answersDE": [
+      "Kleine Parteien haben aehnliche Programme",
+      "Buerger verlieren Orientierung",
+      "Viele kleine Parteien erschweren Regierungsbildung",
+      "Kleine Parteien haben kein Geld"
+    ],
+    "answersEN": [
+      "Small parties have similar programs",
+      "Citizens lose orientation",
+      "Many small parties complicate government formation",
+      "Small parties have no money"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 78,
+    "questionDE": "Gewaehlte Parlamentsmitglieder heissen...",
+    "questionEN": "Elected parliament members are called...",
+    "answersDE": [
+      "Abgeordnete",
+      "Kanzler",
+      "Botschafter",
+      "Ministerpraesidenten"
+    ],
+    "answersEN": [
+      "Deputies/Representatives",
+      "Chancellors",
+      "Ambassadors",
+      "Minister Presidents"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 79,
+    "questionDE": "Direkt vom Volk gewaehlt wird...",
+    "questionEN": "Directly elected by the people is...",
+    "answersDE": [
+      "Der Bundeskanzler",
+      "Der Ministerpraesident",
+      "Der Bundestag",
+      "Der Bundespraesident"
+    ],
+    "answersEN": [
+      "The Chancellor",
+      "The Minister President",
+      "The Bundestag",
+      "The Federal President"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 80,
+    "questionDE": "Ein Buergermeister ist...",
+    "questionEN": "A mayor is...",
+    "answersDE": [
+      "Schulleiter",
+      "Bankchef",
+      "Oberhaupt einer Gemeinde",
+      "Parteivorsitzender"
+    ],
+    "answersEN": [
+      "School principal",
+      "Bank director",
+      "Head of a municipality",
+      "Party chairman"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 81,
+    "questionDE": "In Deutschland kann es strafbar sein, den Voelkermord an den Juden zu leugnen.",
+    "questionEN": "In Germany, it can be a criminal offense to deny the genocide of the Jews.",
+    "answersDE": [
+      "Ja, das ist strafbar",
+      "Nein, das ist erlaubt",
+      "Nur in manchen Bundeslaendern",
+      "Nur fuer Beamte"
+    ],
+    "answersEN": [
+      "Yes, this is punishable",
+      "No, this is allowed",
+      "Only in some states",
+      "Only for officials"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 82,
+    "questionDE": "Was ist der Bundestag?",
+    "questionEN": "What is the Bundestag?",
+    "answersDE": [
+      "Die Boerse",
+      "Das deutsche Parlament",
+      "Der Sitz der Regierung",
+      "Das Bundesverfassungsgericht"
+    ],
+    "answersEN": [
+      "The stock exchange",
+      "The German parliament",
+      "The seat of government",
+      "The Federal Constitutional Court"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 83,
+    "questionDE": "Wie viele Bundeslaender hat die Bundesrepublik Deutschland?",
+    "questionEN": "How many federal states does Germany have?",
+    "answersDE": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answersEN": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 84,
+    "questionDE": "Was ist kein Bundesland?",
+    "questionEN": "Which is not a federal state?",
+    "answersDE": [
+      "Franken",
+      "Mecklenburg-Vorpommern",
+      "Brandenburg",
+      "Sachsen-Anhalt"
+    ],
+    "answersEN": [
+      "Franconia",
+      "Mecklenburg-Vorpommern",
+      "Brandenburg",
+      "Saxony-Anhalt"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 85,
+    "questionDE": "Welches Bundesland ist ein Stadtstaat?",
+    "questionEN": "Which federal state is a city-state?",
+    "answersDE": [
+      "Berlin",
+      "Saarland",
+      "Brandenburg",
+      "Hessen"
+    ],
+    "answersEN": [
+      "Berlin",
+      "Saarland",
+      "Brandenburg",
+      "Hesse"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 86,
+    "questionDE": "Was muss jeder Deutsche ab 18 Jahren bei einer Bundestagswahl tun?",
+    "questionEN": "What must every German over 18 do in a federal election?",
+    "answersDE": [
+      "waehlen gehen",
+      "an Demonstrationen teilnehmen",
+      "einer Partei beitreten",
+      "nichts, die Wahl ist freiwillig"
+    ],
+    "answersEN": [
+      "go voting",
+      "participate in demonstrations",
+      "join a party",
+      "nothing, voting is voluntary"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 87,
+    "questionDE": "Was passiert in Deutschland alle 4 Jahre?",
+    "questionEN": "What happens in Germany every 4 years?",
+    "answersDE": [
+      "Europawahlen",
+      "Bundestagswahlen",
+      "Landtagswahlen",
+      "Kommunalwahlen"
+    ],
+    "answersEN": [
+      "European elections",
+      "Federal elections",
+      "State elections",
+      "Municipal elections"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 88,
+    "questionDE": "Was bedeutet 'Wahlgeheimnis' in Deutschland?",
+    "questionEN": "What does 'voting secrecy' mean in Germany?",
+    "answersDE": [
+      "Man muss sagen, wen man gewaehlt hat",
+      "Niemand darf wissen, wen man gewaehlt hat",
+      "Die Wahlergebnisse werden nicht veroeffentlicht",
+      "Nur Buerger duerfen waehlen"
+    ],
+    "answersEN": [
+      "You must tell whom you voted for",
+      "No one may know whom you voted for",
+      "Election results are not published",
+      "Only citizens may vote"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 89,
+    "questionDE": "Welches Recht ist nicht in der deutschen Verfassung?",
+    "questionEN": "Which right is not in the German constitution?",
+    "answersDE": [
+      "Recht auf Leben",
+      "Meinungsfreiheit",
+      "Recht auf Wohnung",
+      "Recht auf Waffenbesitz"
+    ],
+    "answersEN": [
+      "Right to life",
+      "Freedom of opinion",
+      "Right to housing",
+      "Right to own weapons"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 90,
+    "questionDE": "Was ist das aktive Wahlrecht?",
+    "questionEN": "What is the active right to vote?",
+    "answersDE": [
+      "Man darf waehlen",
+      "Man darf gewaehlt werden",
+      "Man muss waehlen",
+      "Man organisiert die Wahlen"
+    ],
+    "answersEN": [
+      "You may vote",
+      "You may be elected",
+      "You must vote",
+      "You organize elections"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 91,
+    "questionDE": "Was ist das passive Wahlrecht?",
+    "questionEN": "What is the passive right to vote?",
+    "answersDE": [
+      "Man darf waehlen",
+      "Man darf gewaehlt werden",
+      "Man muss waehlen",
+      "Man darf nicht waehlen"
+    ],
+    "answersEN": [
+      "You may vote",
+      "You may be elected",
+      "You must vote",
+      "You may not vote"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 92,
+    "questionDE": "Welche Aussage ueber Wahlen in Deutschland ist richtig?",
+    "questionEN": "Which statement about elections in Germany is correct?",
+    "answersDE": [
+      "Wahlen sind geheim",
+      "Der Chef sieht, wen die Mitarbeiter waehlen",
+      "Jeder Staatsbuerger ab 18 darf waehlen",
+      "Man kann im Supermarkt waehlen"
+    ],
+    "answersEN": [
+      "Elections are secret",
+      "The boss sees whom employees vote for",
+      "Every citizen over 18 may vote",
+      "You can vote in the supermarket"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 93,
+    "questionDE": "Was ist eine Koalition?",
+    "questionEN": "What is a coalition?",
+    "answersDE": [
+      "Ein Zusammenschluss von Parteien",
+      "Ein anderes Wort fuer Opposition",
+      "Eine internationale Organisation",
+      "Ein Wahlkampf"
+    ],
+    "answersEN": [
+      "An alliance of parties",
+      "Another word for opposition",
+      "An international organization",
+      "An election campaign"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 94,
+    "questionDE": "Was bedeutet 'Opposition'?",
+    "questionEN": "What does 'opposition' mean?",
+    "answersDE": [
+      "Die Regierungsparteien",
+      "Parteien, die nicht regieren",
+      "Eine internationale Organisation",
+      "Wahlkampf"
+    ],
+    "answersEN": [
+      "The governing parties",
+      "Parties not in government",
+      "An international organization",
+      "Election campaign"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 95,
+    "questionDE": "Was ist die Aufgabe der Opposition im Bundestag?",
+    "questionEN": "What is the task of the opposition in the Bundestag?",
+    "answersDE": [
+      "Die Regierung unterstuetzen",
+      "Die Regierung kontrollieren",
+      "Die Gesetze unterschreiben",
+      "Den Kanzler waehlen"
+    ],
+    "answersEN": [
+      "Support the government",
+      "Monitor the government",
+      "Sign the laws",
+      "Elect the chancellor"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 96,
+    "questionDE": "Wer ist der Bundespraesident von Deutschland (2024)?",
+    "questionEN": "Who is the Federal President of Germany (2024)?",
+    "answersDE": [
+      "Olaf Scholz",
+      "Angela Merkel",
+      "Frank-Walter Steinmeier",
+      "Joachim Gauck"
+    ],
+    "answersEN": [
+      "Olaf Scholz",
+      "Angela Merkel",
+      "Frank-Walter Steinmeier",
+      "Joachim Gauck"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 97,
+    "questionDE": "Wer ist in Deutschland Staatsoberhaupt?",
+    "questionEN": "Who is the head of state in Germany?",
+    "answersDE": [
+      "Der Bundeskanzler",
+      "Der Bundespraesident",
+      "Der Bundestagspraesident",
+      "Der Ministerpräsident"
+    ],
+    "answersEN": [
+      "The Federal Chancellor",
+      "The Federal President",
+      "The President of the Bundestag",
+      "The Minister-President"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 98,
+    "questionDE": "Wer wählt den Bundespraesident?",
+    "questionEN": "Who elects the Federal President?",
+    "answersDE": [
+      "Das Volk",
+      "Der Bundestag allein",
+      "Die Bundesversammlung",
+      "Der Bundesrat"
+    ],
+    "answersEN": [
+      "The people",
+      "The Bundestag alone",
+      "The Federal Assembly",
+      "The Bundesrat"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 99,
+    "questionDE": "Die Bundesversammlung besteht aus...",
+    "questionEN": "The Federal Assembly consists of...",
+    "answersDE": [
+      "allen Deutschen",
+      "dem Bundestag und Vertretern der Laender",
+      "nur Bundestag",
+      "nur Bundesrat"
+    ],
+    "answersEN": [
+      "all Germans",
+      "Bundestag and state representatives",
+      "only Bundestag",
+      "only Bundesrat"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 100,
+    "questionDE": "Der Bundespraesident wird fuer wie viele Jahre gewaehlt?",
+    "questionEN": "The Federal President is elected for how many years?",
+    "answersDE": [
+      "4 Jahre",
+      "5 Jahre",
+      "6 Jahre",
+      "7 Jahre"
+    ],
+    "answersEN": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 101,
+    "questionDE": "Was macht der Bundespraesident nicht?",
+    "questionEN": "What does the Federal President not do?",
+    "answersDE": [
+      "Gesetze unterschreiben",
+      "Deutschland vertreten",
+      "die Regierung leiten",
+      "Botschafter ernennen"
+    ],
+    "answersEN": [
+      "Sign laws",
+      "represent Germany",
+      "lead the government",
+      "appoint ambassadors"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 102,
+    "questionDE": "Wer waehlt den Bundeskanzler?",
+    "questionEN": "Who elects the Federal Chancellor?",
+    "answersDE": [
+      "Das Volk direkt",
+      "Der Bundestag",
+      "Der Bundesrat",
+      "Der Bundespraesident"
+    ],
+    "answersEN": [
+      "The people directly",
+      "The Bundestag",
+      "The Bundesrat",
+      "The Federal President"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 103,
+    "questionDE": "Wie oft wird der Bundestag gewaehlt?",
+    "questionEN": "How often is the Bundestag elected?",
+    "answersDE": [
+      "Alle 3 Jahre",
+      "Alle 4 Jahre",
+      "Alle 5 Jahre",
+      "Alle 6 Jahre"
+    ],
+    "answersEN": [
+      "Every 3 years",
+      "Every 4 years",
+      "Every 5 years",
+      "Every 6 years"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 104,
+    "questionDE": "Was ist keine Aufgabe des Bundestages?",
+    "questionEN": "What is not a task of the Bundestag?",
+    "answersDE": [
+      "Gesetze verabschieden",
+      "Die Regierung kontrollieren",
+      "Den Bundeskanzler waehlen",
+      "Richter am BGH ernennen"
+    ],
+    "answersEN": [
+      "Pass laws",
+      "Monitor the government",
+      "Elect the Chancellor",
+      "Appoint judges to the BGH"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 105,
+    "questionDE": "Was ist der Bundesrat?",
+    "questionEN": "What is the Bundesrat?",
+    "answersDE": [
+      "Die Regierung",
+      "Vertretung der Laender",
+      "Das Parlament",
+      "Die Opposition"
+    ],
+    "answersEN": [
+      "The government",
+      "Representation of the states",
+      "The parliament",
+      "The opposition"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 106,
+    "questionDE": "Wer sitzt im Bundesrat?",
+    "questionEN": "Who sits in the Bundesrat?",
+    "answersDE": [
+      "Bundestagsabgeordnete",
+      "Vertreter der Landesregierungen",
+      "Richter",
+      "Der Bundespraesident"
+    ],
+    "answersEN": [
+      "Bundestag members",
+      "State government representatives",
+      "Judges",
+      "The Federal President"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 107,
+    "questionDE": "Welches Organ kann den Bundeskanzler durch Misstrauensvotum stuerzen?",
+    "questionEN": "Which body can remove the Chancellor through a vote of no confidence?",
+    "answersDE": [
+      "Der Bundespraesident",
+      "Der Bundesrat",
+      "Der Bundestag",
+      "Das Bundesverfassungsgericht"
+    ],
+    "answersEN": [
+      "The Federal President",
+      "The Bundesrat",
+      "The Bundestag",
+      "The Federal Constitutional Court"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 108,
+    "questionDE": "Was ist das Bundesverfassungsgericht?",
+    "questionEN": "What is the Federal Constitutional Court?",
+    "answersDE": [
+      "Das hoechste deutsche Gericht fuer die Verfassung",
+      "Ein Gericht fuer Straftaten",
+      "Das EU-Gericht",
+      "Ein Finanzgericht"
+    ],
+    "answersEN": [
+      "The highest German court for the constitution",
+      "A court for crimes",
+      "The EU court",
+      "A finance court"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 109,
+    "questionDE": "Wo ist das Bundesverfassungsgericht?",
+    "questionEN": "Where is the Federal Constitutional Court?",
+    "answersDE": [
+      "Berlin",
+      "Bonn",
+      "Karlsruhe",
+      "Muenchen"
+    ],
+    "answersEN": [
+      "Berlin",
+      "Bonn",
+      "Karlsruhe",
+      "Munich"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 110,
+    "questionDE": "Was ist keine staatliche Gewalt in Deutschland?",
+    "questionEN": "What is not a state power in Germany?",
+    "answersDE": [
+      "Legislative",
+      "Exekutive",
+      "Judikative",
+      "Medien"
+    ],
+    "answersEN": [
+      "Legislative",
+      "Executive",
+      "Judiciary",
+      "Media"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 111,
+    "questionDE": "Was ist die Exekutive?",
+    "questionEN": "What is the executive?",
+    "answersDE": [
+      "Gesetzgebung",
+      "Regierung und Verwaltung",
+      "Gerichte",
+      "Parteien"
+    ],
+    "answersEN": [
+      "Legislation",
+      "Government and administration",
+      "Courts",
+      "Parties"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 112,
+    "questionDE": "Was ist die Legislative?",
+    "questionEN": "What is the legislative?",
+    "answersDE": [
+      "Gesetzgebung",
+      "Regierung",
+      "Gerichte",
+      "Medien"
+    ],
+    "answersEN": [
+      "Legislation",
+      "Government",
+      "Courts",
+      "Media"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 113,
+    "questionDE": "Was ist die Judikative?",
+    "questionEN": "What is the judiciary?",
+    "answersDE": [
+      "Regierung",
+      "Gesetzgebung",
+      "Gerichte",
+      "Opposition"
+    ],
+    "answersEN": [
+      "Government",
+      "Legislation",
+      "Courts",
+      "Opposition"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 114,
+    "questionDE": "Was bedeutet Gewaltenteilung?",
+    "questionEN": "What does separation of powers mean?",
+    "answersDE": [
+      "Macht ist aufgeteilt",
+      "Gewalt ist verboten",
+      "Militaer und Polizei sind getrennt",
+      "Bundeslaender sind unabhaengig"
+    ],
+    "answersEN": [
+      "Power is divided",
+      "Violence is prohibited",
+      "Military and police are separate",
+      "Federal states are independent"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 115,
+    "questionDE": "Was ist Aufgabe der Polizei?",
+    "questionEN": "What is the task of the police?",
+    "answersDE": [
+      "Gesetze machen",
+      "Urteile sprechen",
+      "Ordnung sichern",
+      "Steuern erheben"
+    ],
+    "answersEN": [
+      "Make laws",
+      "Pass judgments",
+      "Maintain order",
+      "Collect taxes"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 116,
+    "questionDE": "Was tut die Polizei, um die Buerger zu schuetzen?",
+    "questionEN": "What does the police do to protect citizens?",
+    "answersDE": [
+      "Steuern einziehen",
+      "Straftaten verfolgen",
+      "Gesetze beschliessen",
+      "Urteile faellen"
+    ],
+    "answersEN": [
+      "Collect taxes",
+      "Prosecute crimes",
+      "Pass laws",
+      "Make judgments"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 117,
+    "questionDE": "Was ist das Finanzamt?",
+    "questionEN": "What is the tax office?",
+    "answersDE": [
+      "Eine Bank",
+      "Eine Steuerbehörde",
+      "Ein Gericht",
+      "Eine Versicherung"
+    ],
+    "answersEN": [
+      "A bank",
+      "A tax authority",
+      "A court",
+      "An insurance company"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 118,
+    "questionDE": "Was macht das Standesamt?",
+    "questionEN": "What does the registry office do?",
+    "answersDE": [
+      "Steuern einziehen",
+      "Ehen schliessen, Geburten registrieren",
+      "Straftaten verfolgen",
+      "Wohnungen vermitteln"
+    ],
+    "answersEN": [
+      "Collect taxes",
+      "Perform marriages, register births",
+      "Prosecute crimes",
+      "Find housing"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 119,
+    "questionDE": "Was macht das Ordnungsamt?",
+    "questionEN": "What does the public order office do?",
+    "answersDE": [
+      "Ordnung im oeffentlichen Raum",
+      "Steuern einziehen",
+      "Ehen schliessen",
+      "Richter ernennen"
+    ],
+    "answersEN": [
+      "Order in public spaces",
+      "Collect taxes",
+      "Perform marriages",
+      "Appoint judges"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 120,
+    "questionDE": "Wer ist zustaendig fuer die Schulen in Deutschland?",
+    "questionEN": "Who is responsible for schools in Germany?",
+    "answersDE": [
+      "Der Bund",
+      "Die Bundeslaender",
+      "Die Staedte",
+      "Die EU"
+    ],
+    "answersEN": [
+      "The federal government",
+      "The federal states",
+      "The cities",
+      "The EU"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 121,
+    "questionDE": "In Deutschland muessen die Kinder mindestens wie lange in die Schule gehen?",
+    "questionEN": "In Germany, children must go to school for at least how long?",
+    "answersDE": [
+      "mindestens 9 Jahre",
+      "mindestens 6 Jahre",
+      "mindestens 12 Jahre",
+      "bis sie 14 sind"
+    ],
+    "answersEN": [
+      "at least 9 years",
+      "at least 6 years",
+      "at least 12 years",
+      "until they are 14"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 122,
+    "questionDE": "Was ist die Schulpflicht in Deutschland?",
+    "questionEN": "What is compulsory schooling in Germany?",
+    "answersDE": [
+      "Kinder muessen in die Schule",
+      "Kinder duerfen arbeiten",
+      "Eltern unterrichten zu Hause",
+      "Schule ist freiwillig"
+    ],
+    "answersEN": [
+      "Children must attend school",
+      "Children may work",
+      "Parents teach at home",
+      "School is voluntary"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 123,
+    "questionDE": "Wo melden Sie eine Straftat?",
+    "questionEN": "Where do you report a crime?",
+    "answersDE": [
+      "Beim Finanzamt",
+      "Bei der Polizei",
+      "Beim Standesamt",
+      "Beim Ordnungsamt"
+    ],
+    "answersEN": [
+      "At the tax office",
+      "At the police",
+      "At the registry office",
+      "At the public order office"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 124,
+    "questionDE": "Wer kann in Deutschland Beamter werden?",
+    "questionEN": "Who can become a civil servant in Germany?",
+    "answersDE": [
+      "Nur Deutsche",
+      "Alle EU-Buerger",
+      "Jeder",
+      "Nur Akademiker"
+    ],
+    "answersEN": [
+      "Only Germans",
+      "All EU citizens",
+      "Everyone",
+      "Only academics"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 125,
+    "questionDE": "Was bedeutet Rechtsstaat?",
+    "questionEN": "What does rule of law mean?",
+    "answersDE": [
+      "Alle muessen sich an Gesetze halten",
+      "Nur die Regierung macht Gesetze",
+      "Gesetze gelten nur fuer Auslaender",
+      "Richter sind Politiker"
+    ],
+    "answersEN": [
+      "Everyone must follow laws",
+      "Only the government makes laws",
+      "Laws only apply to foreigners",
+      "Judges are politicians"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 126,
+    "questionDE": "Was ist in Deutschland keine staatliche Aufgabe?",
+    "questionEN": "What is not a state task in Germany?",
+    "answersDE": [
+      "Bau von Strassen",
+      "Schulen",
+      "Religion",
+      "Polizei"
+    ],
+    "answersEN": [
+      "Building roads",
+      "Schools",
+      "Religion",
+      "Police"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 127,
+    "questionDE": "Was ist in Deutschland verboten?",
+    "questionEN": "What is forbidden in Germany?",
+    "answersDE": [
+      "Gewerkschaften gruenden",
+      "Vereine gruenden",
+      "Antidemokratische Parteien",
+      "Demonstrieren"
+    ],
+    "answersEN": [
+      "Founding trade unions",
+      "Founding associations",
+      "Anti-democratic parties",
+      "Demonstrating"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 128,
+    "questionDE": "Was macht ein Rechtsanwalt?",
+    "questionEN": "What does a lawyer do?",
+    "answersDE": [
+      "Urteile sprechen",
+      "Mandanten rechtlich vertreten",
+      "Gesetze machen",
+      "Steuern berechnen"
+    ],
+    "answersEN": [
+      "Pass judgments",
+      "Legally represent clients",
+      "Make laws",
+      "Calculate taxes"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 129,
+    "questionDE": "Was ist das Sozialamt?",
+    "questionEN": "What is the social welfare office?",
+    "answersDE": [
+      "Eine Bank",
+      "Hilfe fuer Menschen in Not",
+      "Ein Gericht",
+      "Eine Schule"
+    ],
+    "answersEN": [
+      "A bank",
+      "Help for people in need",
+      "A court",
+      "A school"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 130,
+    "questionDE": "Was ist die Krankenversicherung in Deutschland?",
+    "questionEN": "What is health insurance in Germany?",
+    "answersDE": [
+      "Freiwillig fuer alle",
+      "Pflicht fuer alle",
+      "Nur fuer Arbeitnehmer",
+      "Nur fuer Deutsche"
+    ],
+    "answersEN": [
+      "Voluntary for everyone",
+      "Mandatory for everyone",
+      "Only for employees",
+      "Only for Germans"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 131,
+    "questionDE": "Was ist die Rentenversicherung?",
+    "questionEN": "What is pension insurance?",
+    "answersDE": [
+      "Versicherung fuer Krankheit",
+      "Versicherung fuer das Alter",
+      "Versicherung fuer Arbeitslosigkeit",
+      "Versicherung fuer Unfaelle"
+    ],
+    "answersEN": [
+      "Insurance for illness",
+      "Insurance for old age",
+      "Insurance for unemployment",
+      "Insurance for accidents"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 132,
+    "questionDE": "Was ist die Arbeitslosenversicherung?",
+    "questionEN": "What is unemployment insurance?",
+    "answersDE": [
+      "Hilfe bei Krankheit",
+      "Hilfe bei Jobverlust",
+      "Hilfe fuer Rentner",
+      "Hilfe bei Unfaellen"
+    ],
+    "answersEN": [
+      "Help for illness",
+      "Help for job loss",
+      "Help for retirees",
+      "Help for accidents"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 133,
+    "questionDE": "Was ist die Pflegeversicherung?",
+    "questionEN": "What is long-term care insurance?",
+    "answersDE": [
+      "Fuer Autounfaelle",
+      "Fuer pflegebeduerftige Menschen",
+      "Fuer Arbeitslose",
+      "Fuer Kinder"
+    ],
+    "answersEN": [
+      "For car accidents",
+      "For people needing care",
+      "For the unemployed",
+      "For children"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 134,
+    "questionDE": "Welche Versicherungen sind in Deutschland Pflicht?",
+    "questionEN": "Which insurances are mandatory in Germany?",
+    "answersDE": [
+      "Keine",
+      "Nur Krankenversicherung",
+      "Kranken-, Renten-, Pflege-, Arbeitslosenversicherung",
+      "Nur Rentenversicherung"
+    ],
+    "answersEN": [
+      "None",
+      "Only health insurance",
+      "Health, pension, care, unemployment insurance",
+      "Only pension insurance"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 135,
+    "questionDE": "Wer zahlt in die Sozialversicherung ein?",
+    "questionEN": "Who pays into social insurance?",
+    "answersDE": [
+      "Nur Arbeitgeber",
+      "Nur Arbeitnehmer",
+      "Arbeitgeber und Arbeitnehmer",
+      "Nur der Staat"
+    ],
+    "answersEN": [
+      "Only employers",
+      "Only employees",
+      "Employers and employees",
+      "Only the state"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 136,
+    "questionDE": "Was ist der Mindestlohn in Deutschland (2024)?",
+    "questionEN": "What is the minimum wage in Germany (2024)?",
+    "answersDE": [
+      "8,50 Euro",
+      "10,45 Euro",
+      "12,41 Euro",
+      "15 Euro"
+    ],
+    "answersEN": [
+      "8.50 euros",
+      "10.45 euros",
+      "12.41 euros",
+      "15 euros"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 137,
+    "questionDE": "Welches Gericht ist zustaendig fuer Streitigkeiten zwischen Arbeitgeber und Arbeitnehmer?",
+    "questionEN": "Which court is responsible for disputes between employer and employee?",
+    "answersDE": [
+      "Familiengericht",
+      "Arbeitsgericht",
+      "Strafgericht",
+      "Verwaltungsgericht"
+    ],
+    "answersEN": [
+      "Family court",
+      "Labor court",
+      "Criminal court",
+      "Administrative court"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 138,
+    "questionDE": "Was regelt das Grundgesetz?",
+    "questionEN": "What does the Basic Law regulate?",
+    "answersDE": [
+      "Nur Wahlen",
+      "Grundrechte und Staatsorganisation",
+      "Nur Steuern",
+      "Nur Verkehr"
+    ],
+    "answersEN": [
+      "Only elections",
+      "Basic rights and state organization",
+      "Only taxes",
+      "Only traffic"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 139,
+    "questionDE": "Was sind keine Grundrechte?",
+    "questionEN": "What are not basic rights?",
+    "answersDE": [
+      "Meinungsfreiheit",
+      "Religionsfreiheit",
+      "Menschenwuerde",
+      "Recht auf Luxus"
+    ],
+    "answersEN": [
+      "Freedom of opinion",
+      "Freedom of religion",
+      "Human dignity",
+      "Right to luxury"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 140,
+    "questionDE": "Wann wurde das Grundgesetz eingefuehrt?",
+    "questionEN": "When was the Basic Law introduced?",
+    "answersDE": [
+      "1945",
+      "1949",
+      "1955",
+      "1990"
+    ],
+    "answersEN": [
+      "1945",
+      "1949",
+      "1955",
+      "1990"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 141,
+    "questionDE": "Wer beschloss das Grundgesetz?",
+    "questionEN": "Who enacted the Basic Law?",
+    "answersDE": [
+      "Das deutsche Volk",
+      "Der Parlamentarische Rat",
+      "Die Alliierten",
+      "Die Bundeslaender"
+    ],
+    "answersEN": [
+      "The German people",
+      "The Parliamentary Council",
+      "The Allies",
+      "The federal states"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 142,
+    "questionDE": "Wann ist das Grundgesetz in Kraft getreten?",
+    "questionEN": "When did the Basic Law come into force?",
+    "answersDE": [
+      "8. Mai 1945",
+      "23. Mai 1949",
+      "3. Oktober 1990",
+      "9. November 1989"
+    ],
+    "answersEN": [
+      "8 May 1945",
+      "23 May 1949",
+      "3 October 1990",
+      "9 November 1989"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 143,
+    "questionDE": "Welcher Satz steht am Anfang des Grundgesetzes?",
+    "questionEN": "Which sentence is at the beginning of the Basic Law?",
+    "answersDE": [
+      "Die Wuerde des Menschen ist unantastbar",
+      "Deutschland ist eine Republik",
+      "Der Bundestag macht die Gesetze",
+      "Alle Menschen sind gleich"
+    ],
+    "answersEN": [
+      "Human dignity is inviolable",
+      "Germany is a republic",
+      "The Bundestag makes the laws",
+      "All people are equal"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 144,
+    "questionDE": "Was ist die 'ewige' Garantie im Grundgesetz?",
+    "questionEN": "What is the 'eternal' guarantee in the Basic Law?",
+    "answersDE": [
+      "Menschenwuerde und Demokratie",
+      "Grenzen Deutschlands",
+      "Das Parteiensystem",
+      "Die Waehrung"
+    ],
+    "answersEN": [
+      "Human dignity and democracy",
+      "Germany's borders",
+      "The party system",
+      "The currency"
+    ],
+    "correctIndex": 0,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 145,
+    "questionDE": "Die Bundesrepublik ist ein...",
+    "questionEN": "The Federal Republic is a...",
+    "answersDE": [
+      "zentralistischer Staat",
+      "foederaler Staat",
+      "Militaerstaat",
+      "Einheitsstaat"
+    ],
+    "answersEN": [
+      "centralist state",
+      "federal state",
+      "military state",
+      "unitary state"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 146,
+    "questionDE": "Was bedeutet Foederalismus in Deutschland?",
+    "questionEN": "What does federalism mean in Germany?",
+    "answersDE": [
+      "Nur der Bund hat Macht",
+      "Laender haben eigene Zustaendigkeiten",
+      "Es gibt keine Bundeslaender",
+      "Alles entscheidet Berlin"
+    ],
+    "answersEN": [
+      "Only the federation has power",
+      "States have their own responsibilities",
+      "There are no federal states",
+      "Berlin decides everything"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 147,
+    "questionDE": "Was ist in Deutschland eine Kommunalwahl?",
+    "questionEN": "What is a municipal election in Germany?",
+    "answersDE": [
+      "Wahl des Bundestags",
+      "Wahl des Stadtrats",
+      "Wahl des Bundeskanzlers",
+      "Europawahl"
+    ],
+    "answersEN": [
+      "Election of the Bundestag",
+      "Election of the city council",
+      "Election of the Chancellor",
+      "European election"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 148,
+    "questionDE": "Was ist ein Buergerentscheid?",
+    "questionEN": "What is a citizen decision?",
+    "answersDE": [
+      "Wahl des Buergermeister",
+      "Abstimmung ueber eine Sachfrage",
+      "Parlamentswahl",
+      "Urteil eines Gerichts"
+    ],
+    "answersEN": [
+      "Election of the mayor",
+      "Vote on a specific issue",
+      "Parliamentary election",
+      "Court judgment"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 149,
+    "questionDE": "Was ist ein Volksentscheid?",
+    "questionEN": "What is a referendum?",
+    "answersDE": [
+      "Wahl des Praesidenten",
+      "Abstimmung des Volkes ueber ein Gesetz",
+      "Kommunalwahl",
+      "Bundestagswahl"
+    ],
+    "answersEN": [
+      "Election of the president",
+      "Popular vote on a law",
+      "Municipal election",
+      "Federal election"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 150,
+    "questionDE": "Was ist in Deutschland Aufgabe der Bundeslaender?",
+    "questionEN": "What is the responsibility of federal states in Germany?",
+    "answersDE": [
+      "Aussenpolitik",
+      "Verteidigung",
+      "Bildung und Polizei",
+      "Waehrung"
+    ],
+    "answersEN": [
+      "Foreign policy",
+      "Defense",
+      "Education and police",
+      "Currency"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": false
+  },
+  {
+    "id": 151,
+    "questionDE": "Wer baute die Mauer in Berlin?",
+    "questionEN": "Who built the Berlin Wall?",
+    "answersDE": [
+      "Grossbritannien",
+      "Die Bundesrepublik",
+      "Die DDR",
+      "Die USA"
+    ],
+    "answersEN": [
+      "Great Britain",
+      "West Germany",
+      "East Germany",
+      "The USA"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 152,
+    "questionDE": "Wann waren die Nationalsozialisten an der Macht?",
+    "questionEN": "When were the Nazis in power?",
+    "answersDE": [
+      "1918-1923",
+      "1932-1950",
+      "1933-1945",
+      "1945-1989"
+    ],
+    "answersEN": [
+      "1918-1923",
+      "1932-1950",
+      "1933-1945",
+      "1945-1989"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 153,
+    "questionDE": "Was war am 8. Mai 1945?",
+    "questionEN": "What happened on May 8, 1945?",
+    "answersDE": [
+      "Tod Hitlers",
+      "Mauerbau",
+      "Wahl Adenauers",
+      "Ende des Zweiten Weltkriegs"
+    ],
+    "answersEN": [
+      "Hitler's death",
+      "Wall construction",
+      "Adenauer's election",
+      "End of WWII in Europe"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 154,
+    "questionDE": "Wann endete der Zweite Weltkrieg?",
+    "questionEN": "When did WWII end?",
+    "answersDE": [
+      "1933",
+      "1945",
+      "1949",
+      "1961"
+    ],
+    "answersEN": [
+      "1933",
+      "1945",
+      "1949",
+      "1961"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 155,
+    "questionDE": "In welchem Jahr wurde Hitler Reichskanzler?",
+    "questionEN": "In what year did Hitler become Reich Chancellor?",
+    "answersDE": [
+      "1923",
+      "1927",
+      "1933",
+      "1936"
+    ],
+    "answersEN": [
+      "1923",
+      "1927",
+      "1933",
+      "1936"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 156,
+    "questionDE": "Das Dritte Reich war eine...",
+    "questionEN": "The Third Reich was a...",
+    "answersDE": [
+      "Diktatur",
+      "Demokratie",
+      "Monarchie",
+      "Raeterepublik"
+    ],
+    "answersEN": [
+      "Dictatorship",
+      "Democracy",
+      "Monarchy",
+      "Soviet republic"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 157,
+    "questionDE": "Welcher Krieg dauerte von 1939 bis 1945?",
+    "questionEN": "Which war lasted from 1939 to 1945?",
+    "answersDE": [
+      "Der Erste Weltkrieg",
+      "Der Zweite Weltkrieg",
+      "Der Vietnamkrieg",
+      "Der Golfkrieg"
+    ],
+    "answersEN": [
+      "WWI",
+      "WWII",
+      "Vietnam War",
+      "Gulf War"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 158,
+    "questionDE": "Wer war der erste Bundeskanzler?",
+    "questionEN": "Who was the first Chancellor?",
+    "answersDE": [
+      "Konrad Adenauer",
+      "Kurt Kiesinger",
+      "Helmut Schmidt",
+      "Willy Brandt"
+    ],
+    "answersEN": [
+      "Konrad Adenauer",
+      "Kurt Kiesinger",
+      "Helmut Schmidt",
+      "Willy Brandt"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 159,
+    "questionDE": "Wann wurde die Bundesrepublik gegruendet?",
+    "questionEN": "When was West Germany founded?",
+    "answersDE": [
+      "1939",
+      "1945",
+      "1949",
+      "1951"
+    ],
+    "answersEN": [
+      "1939",
+      "1945",
+      "1949",
+      "1951"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 160,
+    "questionDE": "Wann wurde die Mauer gebaut?",
+    "questionEN": "When was the Wall built?",
+    "answersDE": [
+      "1953",
+      "1956",
+      "1959",
+      "1961"
+    ],
+    "answersEN": [
+      "1953",
+      "1956",
+      "1959",
+      "1961"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 161,
+    "questionDE": "Wann fiel die Berliner Mauer?",
+    "questionEN": "When did the Berlin Wall fall?",
+    "answersDE": [
+      "1987",
+      "1989",
+      "1992",
+      "1995"
+    ],
+    "answersEN": [
+      "1987",
+      "1989",
+      "1992",
+      "1995"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 162,
+    "questionDE": "Der 3. Oktober ist Tag der deutschen...",
+    "questionEN": "October 3 is the Day of German...",
+    "answersDE": [
+      "Einheit",
+      "Nation",
+      "Bundeslaender",
+      "Staedte"
+    ],
+    "answersEN": [
+      "Unity",
+      "Nation",
+      "Federal states",
+      "Cities"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 163,
+    "questionDE": "Wofuer steht DDR?",
+    "questionEN": "What does DDR stand for?",
+    "answersDE": [
+      "Drittes Deutsches Reich",
+      "Die Deutsche Republik",
+      "Dritte Deutsche Republik",
+      "Deutsche Demokratische Republik"
+    ],
+    "answersEN": [
+      "Third German Reich",
+      "The German Republic",
+      "Third German Republic",
+      "German Democratic Republic"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 164,
+    "questionDE": "Wie viele Besatzungszonen gab es nach 1945?",
+    "questionEN": "How many occupation zones were there after 1945?",
+    "answersDE": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answersEN": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 165,
+    "questionDE": "Wer nennt sich Kanzler der Einheit?",
+    "questionEN": "Who is called the Chancellor of Unity?",
+    "answersDE": [
+      "Gerhard Schroeder",
+      "Helmut Kohl",
+      "Konrad Adenauer",
+      "Helmut Schmidt"
+    ],
+    "answersEN": [
+      "Gerhard Schroeder",
+      "Helmut Kohl",
+      "Konrad Adenauer",
+      "Helmut Schmidt"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 166,
+    "questionDE": "Montagsdemonstrationen 1989 riefen...",
+    "questionEN": "Monday demonstrations 1989 chanted...",
+    "answersDE": [
+      "Freiheit fuer alle",
+      "Wir sind das Volk",
+      "Deutschland einig Vaterland",
+      "Nieder mit der Mauer"
+    ],
+    "answersEN": [
+      "Freedom for all",
+      "We are the people",
+      "Germany united fatherland",
+      "Down with the wall"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 167,
+    "questionDE": "Alliierte Besatzungsmaechte waren...",
+    "questionEN": "Allied occupation powers were...",
+    "answersDE": [
+      "Sowjetunion, GB, Polen, Schweden",
+      "Frankreich, Sowjetunion, Italien, Japan",
+      "USA, Sowjetunion, Spanien, Portugal",
+      "USA, Sowjetunion, GB, Frankreich"
+    ],
+    "answersEN": [
+      "USSR, GB, Poland, Sweden",
+      "France, USSR, Italy, Japan",
+      "USA, USSR, Spain, Portugal",
+      "USA, USSR, GB, France"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 168,
+    "questionDE": "Was war keine Besatzungsmacht?",
+    "questionEN": "What was not an occupation power?",
+    "answersDE": [
+      "USA",
+      "Sowjetunion",
+      "Frankreich",
+      "Japan"
+    ],
+    "answersEN": [
+      "USA",
+      "Soviet Union",
+      "France",
+      "Japan"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 169,
+    "questionDE": "Was gab es nicht im Nationalsozialismus?",
+    "questionEN": "What did not exist during Nazism?",
+    "answersDE": [
+      "Freie Wahlen",
+      "Pressezensur",
+      "Willkuerliche Verhaftungen",
+      "Judenverfolgung"
+    ],
+    "answersEN": [
+      "Free elections",
+      "Press censorship",
+      "Arbitrary arrests",
+      "Persecution of Jews"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 170,
+    "questionDE": "Was kennzeichnete den NS-Staat?",
+    "questionEN": "What characterized the Nazi state?",
+    "answersDE": [
+      "Staatlicher Rassismus",
+      "Meinungsfreiheit",
+      "Religionsfreiheit",
+      "Demokratieentwicklung"
+    ],
+    "answersEN": [
+      "State racism",
+      "Freedom of opinion",
+      "Religious freedom",
+      "Democracy development"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 171,
+    "questionDE": "Stauffenberg wurde bekannt durch...",
+    "questionEN": "Stauffenberg became famous for...",
+    "answersDE": [
+      "Olympia-Goldmedaille 1936",
+      "Bau des Reichstags",
+      "Aufbau der Wehrmacht",
+      "Attentat auf Hitler 1944"
+    ],
+    "answersEN": [
+      "Olympic gold 1936",
+      "Building the Reichstag",
+      "Building the Wehrmacht",
+      "Assassination attempt on Hitler 1944"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 172,
+    "questionDE": "Wann wurden Synagogen zerstoert?",
+    "questionEN": "When were synagogues destroyed?",
+    "answersDE": [
+      "1925",
+      "1930",
+      "1938",
+      "1945"
+    ],
+    "answersEN": [
+      "1925",
+      "1930",
+      "1938",
+      "1945"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 173,
+    "questionDE": "Was passierte am 9. November 1938?",
+    "questionEN": "What happened on November 9, 1938?",
+    "answersDE": [
+      "Angriff auf Polen",
+      "Nationalsozialisten verlieren Wahl",
+      "Juedische Geschaefte und Synagogen zerstoert",
+      "Hitler wird Reichspraesident"
+    ],
+    "answersEN": [
+      "Attack on Poland",
+      "Nazis lose election",
+      "Jewish shops and synagogues destroyed",
+      "Hitler becomes Reich President"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 174,
+    "questionDE": "In welcher Zone wurde die DDR gegruendet?",
+    "questionEN": "In which zone was East Germany founded?",
+    "answersDE": [
+      "Amerikanischen",
+      "Franzoesischen",
+      "Britischen",
+      "Sowjetischen"
+    ],
+    "answersEN": [
+      "American",
+      "French",
+      "British",
+      "Soviet"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 175,
+    "questionDE": "Die BRD ist Gruendungsmitglied...",
+    "questionEN": "West Germany is founding member of...",
+    "answersDE": [
+      "NATO",
+      "Vereinte Nationen",
+      "Europaeische Union",
+      "Warschauer Pakt"
+    ],
+    "answersEN": [
+      "NATO",
+      "United Nations",
+      "European Union",
+      "Warsaw Pact"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 176,
+    "questionDE": "Welche Stadt wurde in 4 Sektoren geteilt?",
+    "questionEN": "Which city was divided into 4 sectors?",
+    "answersDE": [
+      "Muenchen",
+      "Berlin",
+      "Dresden",
+      "Frankfurt/Oder"
+    ],
+    "answersEN": [
+      "Munich",
+      "Berlin",
+      "Dresden",
+      "Frankfurt/Oder"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 177,
+    "questionDE": "Warum gab es die Luftbruecke 1948-49?",
+    "questionEN": "Why was there an airlift 1948-49?",
+    "answersDE": [
+      "Frankreich fand Flugzeuge billiger",
+      "Amerikaner hatten Angst vor Ueberfaellen",
+      "GB fand Luftweg schneller",
+      "Sowjetunion blockierte Landwege"
+    ],
+    "answersEN": [
+      "France found planes cheaper",
+      "Americans feared attacks",
+      "GB found air faster",
+      "USSR blocked land routes"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 178,
+    "questionDE": "Wie endete der Zweite Weltkrieg offiziell?",
+    "questionEN": "How did WWII officially end?",
+    "answersDE": [
+      "Mit Hitlers Tod",
+      "Durch bedingungslose Kapitulation",
+      "Mit Rueckzug aus besetzten Gebieten",
+      "Durch Revolution"
+    ],
+    "answersEN": [
+      "With Hitler's death",
+      "Through unconditional surrender",
+      "With withdrawal from occupied territories",
+      "Through revolution"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 179,
+    "questionDE": "Willy Brandts Kniefall 1970 bedeutete...",
+    "questionEN": "Willy Brandt's kneeling 1970 meant...",
+    "answersDE": [
+      "Unterwerfung vor Alliierten",
+      "Bitte um Vergebung an Polen und Juden",
+      "Demut vor Warschauer Pakt",
+      "Gebet am Grab des Unbekannten Soldaten"
+    ],
+    "answersEN": [
+      "Submission to Allies",
+      "Request for forgiveness to Poland and Jews",
+      "Humility before Warsaw Pact",
+      "Prayer at Unknown Soldier's grave"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 180,
+    "questionDE": "Ein juedisches Gotteshaus heisst...",
+    "questionEN": "A Jewish house of worship is called...",
+    "answersDE": [
+      "Basilika",
+      "Moschee",
+      "Synagoge",
+      "Kirche"
+    ],
+    "answersEN": [
+      "Basilica",
+      "Mosque",
+      "Synagogue",
+      "Church"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 181,
+    "questionDE": "Wann war das Wirtschaftswunder?",
+    "questionEN": "When was the economic miracle?",
+    "answersDE": [
+      "1940er",
+      "1950er",
+      "1970er",
+      "1980er"
+    ],
+    "answersEN": [
+      "1940s",
+      "1950s",
+      "1970s",
+      "1980s"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 182,
+    "questionDE": "Israel wurde gegruendet aufgrund...",
+    "questionEN": "Israel was founded based on...",
+    "answersDE": [
+      "UN-Resolution",
+      "Zionistischer Kongress",
+      "BRD-Regierungsvorschlag",
+      "Sowjetischer Vorschlag"
+    ],
+    "answersEN": [
+      "UN resolution",
+      "Zionist Congress",
+      "West German government proposal",
+      "Soviet proposal"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 183,
+    "questionDE": "Was bezeichnete der Eiserne Vorhang?",
+    "questionEN": "What did the Iron Curtain refer to?",
+    "answersDE": [
+      "Isolation des Ostblocks vom Westen",
+      "Nord-Sued-Teilung",
+      "Nazi-Deutschland vs Alliierte",
+      "Europa vs USA"
+    ],
+    "answersEN": [
+      "Eastern bloc isolation from West",
+      "North-South division",
+      "Nazi Germany vs Allies",
+      "Europe vs USA"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 184,
+    "questionDE": "Der 17. Juni war Feiertag wegen...",
+    "questionEN": "June 17 was a holiday for...",
+    "answersDE": [
+      "1. Mai",
+      "Aufstand 1953 in der DDR",
+      "20. Juli",
+      "9. November"
+    ],
+    "answersEN": [
+      "May 1",
+      "1953 uprising in East Germany",
+      "July 20",
+      "November 9"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 185,
+    "questionDE": "Welches Bundesland war Teil der DDR?",
+    "questionEN": "Which state was part of East Germany?",
+    "answersDE": [
+      "Brandenburg",
+      "Bayern",
+      "Saarland",
+      "Hessen"
+    ],
+    "answersEN": [
+      "Brandenburg",
+      "Bavaria",
+      "Saarland",
+      "Hesse"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 186,
+    "questionDE": "Herbst 1989 heisst Wende weil...",
+    "questionEN": "Autumn 1989 is called Turning Point because...",
+    "answersDE": [
+      "DDR wurde von Diktatur zu Demokratie",
+      "Von Marktwirtschaft zu Sozialismus",
+      "Von Monarchie zu Sozialdemokratie",
+      "Von religioes zu kommunistisch"
+    ],
+    "answersEN": [
+      "GDR changed from dictatorship to democracy",
+      "From market to socialism",
+      "From monarchy to social democracy",
+      "From religious to communist"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 187,
+    "questionDE": "Stasi in der DDR war...",
+    "questionEN": "Stasi in East Germany was...",
+    "answersDE": [
+      "Das Parlament",
+      "Ministerium fuer Staatssicherheit",
+      "Herrschende Partei",
+      "Bildungsministerium"
+    ],
+    "answersEN": [
+      "The parliament",
+      "Ministry for State Security",
+      "Ruling party",
+      "Education ministry"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 188,
+    "questionDE": "Welchem Buendnis gehoerte die DDR an?",
+    "questionEN": "Which alliance did East Germany belong to?",
+    "answersDE": [
+      "Westmaechte",
+      "Warschauer Pakt",
+      "NATO",
+      "Blockfreie Staaten"
+    ],
+    "answersEN": [
+      "Western powers",
+      "Warsaw Pact",
+      "NATO",
+      "Non-aligned states"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 189,
+    "questionDE": "Wirtschaftsordnung der DDR war...",
+    "questionEN": "East Germany's economic system was...",
+    "answersDE": [
+      "Marktwirtschaft",
+      "Planwirtschaft",
+      "Angebot und Nachfrage",
+      "Kapitalismus"
+    ],
+    "answersEN": [
+      "Market economy",
+      "Planned economy",
+      "Supply and demand",
+      "Capitalism"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 190,
+    "questionDE": "Wie wurden BRD und DDR ein Staat?",
+    "questionEN": "How did West and East become one state?",
+    "answersDE": [
+      "West besetzte Ost",
+      "5 Laender traten BRD bei",
+      "West trat DDR bei",
+      "Ost besetzte West"
+    ],
+    "answersEN": [
+      "West occupied East",
+      "5 states joined West Germany",
+      "West joined East Germany",
+      "East occupied West"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 191,
+    "questionDE": "Mit DDR-Beitritt gehoeren neue Laender zu...",
+    "questionEN": "With GDR accession new states belong to...",
+    "answersDE": [
+      "Europaeische Union",
+      "Warschauer Pakt",
+      "OPEC",
+      "Europaeische Verteidigungsgemeinschaft"
+    ],
+    "answersEN": [
+      "European Union",
+      "Warsaw Pact",
+      "OPEC",
+      "European Defense Community"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 192,
+    "questionDE": "Stolpersteine erinnern an...",
+    "questionEN": "Stumbling stones commemorate...",
+    "answersDE": [
+      "Beruehmte Politiker",
+      "NS-Opfer",
+      "Verkehrstote",
+      "Beruehmte Musiker"
+    ],
+    "answersEN": [
+      "Famous politicians",
+      "Nazi victims",
+      "Traffic deaths",
+      "Famous musicians"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 193,
+    "questionDE": "DDR-Staatswappen zeigte...",
+    "questionEN": "GDR state emblem showed...",
+    "answersDE": [
+      "Einkoepfiger Adler",
+      "Zwei vereinte Symbole",
+      "Stilisiertes Hakenkreuz",
+      "Aehrenkranz mit Hammer und Zirkel"
+    ],
+    "answersEN": [
+      "Single-headed eagle",
+      "Two united symbols",
+      "Stylized swastika",
+      "Wheat wreath with hammer and compass"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 194,
+    "questionDE": "Was war am 17. Juni 1953?",
+    "questionEN": "What happened on June 17, 1953?",
+    "answersDE": [
+      "Beitritt zum Warschauer Pakt",
+      "Landesweite Streiks und Volksaufstand",
+      "Erster SED-Parteitag",
+      "Fidel Castros erster Besuch"
+    ],
+    "answersEN": [
+      "Warsaw Pact accession",
+      "Nationwide strikes and uprising",
+      "First SED Party Congress",
+      "Fidel Castro's first visit"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 195,
+    "questionDE": "Offizieller Name Deutschlands ist...",
+    "questionEN": "Germany's official name is...",
+    "answersDE": [
+      "Bundesstaat Deutschland",
+      "Bundeslaender Deutschland",
+      "Bundesrepublik Deutschland",
+      "Bundesbezirk Deutschland"
+    ],
+    "answersEN": [
+      "Federal State Germany",
+      "Federal States Germany",
+      "Federal Republic of Germany",
+      "Federal District Germany"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 196,
+    "questionDE": "Deutschlands Bevoelkerung ist ca...",
+    "questionEN": "Germany's population is approximately...",
+    "answersDE": [
+      "70 Millionen",
+      "78 Millionen",
+      "84 Millionen",
+      "90 Millionen"
+    ],
+    "answersEN": [
+      "70 million",
+      "78 million",
+      "84 million",
+      "90 million"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 197,
+    "questionDE": "Die Farben der deutschen Flagge sind...",
+    "questionEN": "German flag colors are...",
+    "answersDE": [
+      "Schwarz-rot-gold",
+      "Rot-weiss-schwarz",
+      "Schwarz-rot-gruen",
+      "Schwarz-gelb-rot"
+    ],
+    "answersEN": [
+      "Black-red-gold",
+      "Red-white-black",
+      "Black-red-green",
+      "Black-yellow-red"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 198,
+    "questionDE": "DDR existierte von...",
+    "questionEN": "East Germany existed from...",
+    "answersDE": [
+      "1919-1927",
+      "1933-1945",
+      "1949-1990",
+      "1945-1961"
+    ],
+    "answersEN": [
+      "1919-1927",
+      "1933-1945",
+      "1949-1990",
+      "1945-1961"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 199,
+    "questionDE": "Wie viele Laender traten 1990 bei?",
+    "questionEN": "How many states joined in 1990?",
+    "answersDE": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answersEN": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 200,
+    "questionDE": "Heutige deutsche Grenzen seit...",
+    "questionEN": "Current German borders since...",
+    "answersDE": [
+      "1933",
+      "1949",
+      "1971",
+      "1990"
+    ],
+    "answersEN": [
+      "1933",
+      "1949",
+      "1971",
+      "1990"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 201,
+    "questionDE": "Der 27. Januar erinnert an...",
+    "questionEN": "January 27 commemorates...",
+    "answersDE": [
+      "Ende des Krieges",
+      "Grundgesetz-Verabschiedung",
+      "Wiedervereinigung",
+      "NS-Opfer (Auschwitz-Befreiung)"
+    ],
+    "answersEN": [
+      "End of war",
+      "Basic Law adoption",
+      "Reunification",
+      "Nazi victims (Auschwitz liberation)"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 202,
+    "questionDE": "Schengener Abkommen bedeutet...",
+    "questionEN": "Schengen Agreement means...",
+    "answersDE": [
+      "Deutsche reisen ohne Passkontrolle",
+      "Offene Grenzen fuer alle",
+      "Unbegrenzte Reisen ueberall",
+      "Euro-Akzeptanz ueberall"
+    ],
+    "answersEN": [
+      "Germans travel without passport control",
+      "Open borders for all",
+      "Unlimited travel everywhere",
+      "Euro acceptance everywhere"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 203,
+    "questionDE": "Deutsches Nachbarland ist...",
+    "questionEN": "German neighbor country is...",
+    "answersDE": [
+      "Ungarn",
+      "Portugal",
+      "Spanien",
+      "Schweiz"
+    ],
+    "answersEN": [
+      "Hungary",
+      "Portugal",
+      "Spain",
+      "Switzerland"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 204,
+    "questionDE": "Deutsches Nachbarland ist...",
+    "questionEN": "German neighbor country is...",
+    "answersDE": [
+      "Rumaenien",
+      "Bulgarien",
+      "Polen",
+      "Griechenland"
+    ],
+    "answersEN": [
+      "Romania",
+      "Bulgaria",
+      "Poland",
+      "Greece"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 205,
+    "questionDE": "EU steht fuer...",
+    "questionEN": "EU stands for...",
+    "answersDE": [
+      "Europaeische Unternehmen",
+      "Europaeische Union",
+      "Einheitliche Union",
+      "Euro-Union"
+    ],
+    "answersEN": [
+      "European Companies",
+      "European Union",
+      "Unified Union",
+      "Euro Union"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 206,
+    "questionDE": "Deutsches Nachbarland ist...",
+    "questionEN": "German neighbor country is...",
+    "answersDE": [
+      "Finnland",
+      "Daenemark",
+      "Norwegen",
+      "Schweden"
+    ],
+    "answersEN": [
+      "Finland",
+      "Denmark",
+      "Norway",
+      "Sweden"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 207,
+    "questionDE": "Deutsches Nachbarland ist...",
+    "questionEN": "German neighbor country is...",
+    "answersDE": [
+      "Spanien",
+      "Bulgarien",
+      "Norwegen",
+      "Luxemburg"
+    ],
+    "answersEN": [
+      "Spain",
+      "Bulgaria",
+      "Norway",
+      "Luxembourg"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 208,
+    "questionDE": "Europaeisches Parlament wird gewaehlt alle...",
+    "questionEN": "European Parliament elected every...",
+    "answersDE": [
+      "5 Jahre",
+      "6 Jahre",
+      "7 Jahre",
+      "8 Jahre"
+    ],
+    "answersEN": [
+      "5 years",
+      "6 years",
+      "7 years",
+      "8 years"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 209,
+    "questionDE": "Deutsches Nachbarland ist...",
+    "questionEN": "German neighbor country is...",
+    "answersDE": [
+      "Tschechien",
+      "Bulgarien",
+      "Griechenland",
+      "Portugal"
+    ],
+    "answersEN": [
+      "Czech Republic",
+      "Bulgaria",
+      "Greece",
+      "Portugal"
+    ],
+    "correctIndex": 0,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 210,
+    "questionDE": "Europaeisches Parlament sitzt in...",
+    "questionEN": "European Parliament is located in...",
+    "answersDE": [
+      "London",
+      "Paris",
+      "Berlin",
+      "Strassburg"
+    ],
+    "answersEN": [
+      "London",
+      "Paris",
+      "Berlin",
+      "Strasbourg"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "isBerlin": false
+  },
+  {
+    "id": 211,
+    "questionDE": "Was ist kein gesetzlicher Feiertag in Deutschland?",
+    "questionEN": "What is not a legal holiday in Germany?",
+    "answersDE": [
+      "Karfreitag",
+      "Tag der Deutschen Einheit",
+      "Heiligabend",
+      "Erster Mai"
+    ],
+    "answersEN": [
+      "Good Friday",
+      "German Unity Day",
+      "Christmas Eve",
+      "May Day"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 212,
+    "questionDE": "Wann ist der Tag der Deutschen Einheit?",
+    "questionEN": "When is German Unity Day?",
+    "answersDE": [
+      "1. Mai",
+      "23. Mai",
+      "3. Oktober",
+      "9. November"
+    ],
+    "answersEN": [
+      "1 May",
+      "23 May",
+      "3 October",
+      "9 November"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 213,
+    "questionDE": "Warum ist der 3. Oktober ein Feiertag?",
+    "questionEN": "Why is 3 October a holiday?",
+    "answersDE": [
+      "Ende Zweiter Weltkrieg",
+      "Wiedervereinigung",
+      "Grundgesetz-Verabschiedung",
+      "Mauerfall"
+    ],
+    "answersEN": [
+      "End of WWII",
+      "Reunification",
+      "Basic Law adoption",
+      "Fall of the Wall"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 214,
+    "questionDE": "Wann ist in Deutschland Weihnachten?",
+    "questionEN": "When is Christmas in Germany?",
+    "answersDE": [
+      "24. Dezember",
+      "25. und 26. Dezember",
+      "31. Dezember",
+      "1. Januar"
+    ],
+    "answersEN": [
+      "24 December",
+      "25 and 26 December",
+      "31 December",
+      "1 January"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 215,
+    "questionDE": "Was ist Advent?",
+    "questionEN": "What is Advent?",
+    "answersDE": [
+      "Zeit nach Ostern",
+      "Vier Wochen vor Weihnachten",
+      "Eine Partei",
+      "Ein Fest im Sommer"
+    ],
+    "answersEN": [
+      "Time after Easter",
+      "Four weeks before Christmas",
+      "A party",
+      "A summer festival"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 216,
+    "questionDE": "Welches Fest ist immer im Fruehjahr?",
+    "questionEN": "Which festival is always in spring?",
+    "answersDE": [
+      "Ostern",
+      "Weihnachten",
+      "Tag der Arbeit",
+      "Silvester"
+    ],
+    "answersEN": [
+      "Easter",
+      "Christmas",
+      "Labor Day",
+      "New Year's Eve"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 217,
+    "questionDE": "Wann feiert man in Deutschland Silvester?",
+    "questionEN": "When is New Year's Eve celebrated in Germany?",
+    "answersDE": [
+      "Am 1. Januar",
+      "Am 6. Januar",
+      "Am 24. Dezember",
+      "Am 31. Dezember"
+    ],
+    "answersEN": [
+      "On 1 January",
+      "On 6 January",
+      "On 24 December",
+      "On 31 December"
+    ],
+    "correctIndex": 3,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 218,
+    "questionDE": "Was macht man an Silvester?",
+    "questionEN": "What do people do on New Year's Eve?",
+    "answersDE": [
+      "Ostereier verstecken",
+      "Tannenbaum schmuecken",
+      "Feuerwerk anschauen",
+      "Fastenzeit beginnen"
+    ],
+    "answersEN": [
+      "Hide Easter eggs",
+      "Decorate Christmas tree",
+      "Watch fireworks",
+      "Start fasting"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 219,
+    "questionDE": "Was ist Pfingsten?",
+    "questionEN": "What is Pentecost?",
+    "answersDE": [
+      "Ein christliches Fest",
+      "Ein politischer Feiertag",
+      "Der Nationalfeiertag",
+      "Ein juedisches Fest"
+    ],
+    "answersEN": [
+      "A Christian festival",
+      "A political holiday",
+      "The national holiday",
+      "A Jewish festival"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 220,
+    "questionDE": "Was ist kein christlicher Feiertag?",
+    "questionEN": "What is not a Christian holiday?",
+    "answersDE": [
+      "Ostern",
+      "Weihnachten",
+      "Pfingsten",
+      "Tag der Arbeit"
+    ],
+    "answersEN": [
+      "Easter",
+      "Christmas",
+      "Pentecost",
+      "Labor Day"
+    ],
+    "correctIndex": 3,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 221,
+    "questionDE": "Welche Religion ist in Deutschland am weitesten verbreitet?",
+    "questionEN": "Which religion is most widespread in Germany?",
+    "answersDE": [
+      "Islam",
+      "Judentum",
+      "Christentum",
+      "Buddhismus"
+    ],
+    "answersEN": [
+      "Islam",
+      "Judaism",
+      "Christianity",
+      "Buddhism"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 222,
+    "questionDE": "Wann sind die meisten Geschaefte in Deutschland geschlossen?",
+    "questionEN": "When are most shops closed in Germany?",
+    "answersDE": [
+      "Am Sonntag",
+      "Am Montag",
+      "Am Samstag",
+      "Nie"
+    ],
+    "answersEN": [
+      "On Sunday",
+      "On Monday",
+      "On Saturday",
+      "Never"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 223,
+    "questionDE": "Wer darf in Deutschland einen Laden am Sonntag oeffnen?",
+    "questionEN": "Who may open a shop on Sunday in Germany?",
+    "answersDE": [
+      "Jeder",
+      "Nur Baeckereien und Tankstellen",
+      "Niemand",
+      "Nur Supermaerkte"
+    ],
+    "answersEN": [
+      "Everyone",
+      "Only bakeries and gas stations",
+      "No one",
+      "Only supermarkets"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 224,
+    "questionDE": "Welcher Tag ist in Deutschland ein Ruhetag?",
+    "questionEN": "Which day is a day of rest in Germany?",
+    "answersDE": [
+      "Montag",
+      "Mittwoch",
+      "Samstag",
+      "Sonntag"
+    ],
+    "answersEN": [
+      "Monday",
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correctIndex": 3,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 225,
+    "questionDE": "Was ist typisch fuer den deutschen Karneval?",
+    "questionEN": "What is typical for German carnival?",
+    "answersDE": [
+      "Fastenzeit",
+      "Kostueme und Umzuege",
+      "Ostereier",
+      "Weihnachtslieder"
+    ],
+    "answersEN": [
+      "Fasting period",
+      "Costumes and parades",
+      "Easter eggs",
+      "Christmas songs"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 226,
+    "questionDE": "Wo ist Karneval besonders bekannt?",
+    "questionEN": "Where is carnival particularly famous?",
+    "answersDE": [
+      "Berlin",
+      "Muenchen",
+      "Koeln",
+      "Hamburg"
+    ],
+    "answersEN": [
+      "Berlin",
+      "Munich",
+      "Cologne",
+      "Hamburg"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 227,
+    "questionDE": "Was ist das Oktoberfest?",
+    "questionEN": "What is Oktoberfest?",
+    "answersDE": [
+      "Ein politisches Treffen",
+      "Ein Volksfest in Muenchen",
+      "Ein Kirchenfest",
+      "Ein Konzert"
+    ],
+    "answersEN": [
+      "A political meeting",
+      "A folk festival in Munich",
+      "A church festival",
+      "A concert"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 228,
+    "questionDE": "Wann findet das Oktoberfest statt?",
+    "questionEN": "When does Oktoberfest take place?",
+    "answersDE": [
+      "Im Januar",
+      "Im April",
+      "Im September/Oktober",
+      "Im Dezember"
+    ],
+    "answersEN": [
+      "In January",
+      "In April",
+      "In September/October",
+      "In December"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 229,
+    "questionDE": "Was ist in Deutschland beim Autofahren Pflicht?",
+    "questionEN": "What is mandatory when driving in Germany?",
+    "answersDE": [
+      "Sicherheitsgurt anlegen",
+      "Musik hoeren",
+      "Mitfahrer mitnehmen",
+      "Telefon benutzen"
+    ],
+    "answersEN": [
+      "Wearing a seatbelt",
+      "Listening to music",
+      "Taking passengers",
+      "Using a phone"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 230,
+    "questionDE": "Was braucht man in Deutschland zum Autofahren?",
+    "questionEN": "What do you need to drive in Germany?",
+    "answersDE": [
+      "Nur ein Auto",
+      "Einen Fuehrerschein",
+      "Nur Benzin",
+      "Eine Bahncard"
+    ],
+    "answersEN": [
+      "Only a car",
+      "A driver's license",
+      "Only gas",
+      "A train card"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 231,
+    "questionDE": "Wenn ein Kind in Deutschland zur Welt kommt, muessen Eltern binnen...",
+    "questionEN": "When a child is born in Germany, parents must within...",
+    "answersDE": [
+      "einer Woche das Kind beim Standesamt anmelden",
+      "eines Monats zum Jugendamt gehen",
+      "eines Jahres den Namen aendern",
+      "einer Stunde die Polizei rufen"
+    ],
+    "answersEN": [
+      "one week register the child at the registry office",
+      "one month go to the youth office",
+      "one year change the name",
+      "one hour call the police"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 232,
+    "questionDE": "Wo wird eine Geburt registriert?",
+    "questionEN": "Where is a birth registered?",
+    "answersDE": [
+      "Bei der Polizei",
+      "Beim Standesamt",
+      "Beim Finanzamt",
+      "Im Krankenhaus"
+    ],
+    "answersEN": [
+      "At the police",
+      "At the registry office",
+      "At the tax office",
+      "At the hospital"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 233,
+    "questionDE": "Wer kann in Deutschland heiraten?",
+    "questionEN": "Who can marry in Germany?",
+    "answersDE": [
+      "Nur Deutsche",
+      "Nur Christen",
+      "Alle volljaehrigen Personen",
+      "Nur Heterosexuelle"
+    ],
+    "answersEN": [
+      "Only Germans",
+      "Only Christians",
+      "All adults",
+      "Only heterosexuals"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 234,
+    "questionDE": "Wo wird eine Ehe geschlossen?",
+    "questionEN": "Where is a marriage performed?",
+    "answersDE": [
+      "Nur in der Kirche",
+      "Beim Standesamt",
+      "Beim Notar",
+      "Beim Buergermeister"
+    ],
+    "answersEN": [
+      "Only in church",
+      "At the registry office",
+      "At a notary",
+      "At the mayor's office"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 235,
+    "questionDE": "Ist die Ehe zwischen zwei Frauen in Deutschland erlaubt?",
+    "questionEN": "Is marriage between two women allowed in Germany?",
+    "answersDE": [
+      "Nein",
+      "Ja",
+      "Nur in manchen Bundeslaendern",
+      "Nur mit Genehmigung"
+    ],
+    "answersEN": [
+      "No",
+      "Yes",
+      "Only in some federal states",
+      "Only with permission"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 236,
+    "questionDE": "Seit wann ist die gleichgeschlechtliche Ehe in Deutschland erlaubt?",
+    "questionEN": "Since when is same-sex marriage allowed in Germany?",
+    "answersDE": [
+      "2001",
+      "2010",
+      "2017",
+      "Noch nicht erlaubt"
+    ],
+    "answersEN": [
+      "2001",
+      "2010",
+      "2017",
+      "Not yet allowed"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 237,
+    "questionDE": "Was ist Mutterschutz?",
+    "questionEN": "What is maternity protection?",
+    "answersDE": [
+      "Schutz fuer Kinder",
+      "Schutz fuer schwangere Frauen am Arbeitsplatz",
+      "Versicherung fuer Muetter",
+      "Ein Verein fuer Muetter"
+    ],
+    "answersEN": [
+      "Protection for children",
+      "Protection for pregnant women at work",
+      "Insurance for mothers",
+      "An association for mothers"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 238,
+    "questionDE": "Welches Alter hat ein volljaehriges Kind in Deutschland mindestens?",
+    "questionEN": "What is the minimum age of an adult child in Germany?",
+    "answersDE": [
+      "14 Jahre",
+      "16 Jahre",
+      "18 Jahre",
+      "21 Jahre"
+    ],
+    "answersEN": [
+      "14 years",
+      "16 years",
+      "18 years",
+      "21 years"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 239,
+    "questionDE": "Eltern muessen fuer ihre Kinder sorgen bis sie...",
+    "questionEN": "Parents must care for their children until they...",
+    "answersDE": [
+      "14 sind",
+      "16 sind",
+      "18 oder Ausbildung beendet",
+      "21 sind"
+    ],
+    "answersEN": [
+      "are 14",
+      "are 16",
+      "are 18 or finish training",
+      "are 21"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 240,
+    "questionDE": "Wer erzieht in Deutschland die Kinder?",
+    "questionEN": "Who raises children in Germany?",
+    "answersDE": [
+      "Der Staat",
+      "Die Kirche",
+      "Die Eltern haben das Recht und die Pflicht",
+      "Nur die Mutter"
+    ],
+    "answersEN": [
+      "The state",
+      "The church",
+      "Parents have the right and duty",
+      "Only the mother"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 241,
+    "questionDE": "Ab welchem Alter ist man volljaehrig?",
+    "questionEN": "At what age do you become an adult?",
+    "answersDE": [
+      "16",
+      "18",
+      "19",
+      "21"
+    ],
+    "answersEN": [
+      "16",
+      "18",
+      "19",
+      "21"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 242,
+    "questionDE": "Wer entscheidet ueber Kindergartenbesuch?",
+    "questionEN": "Who decides about kindergarten attendance?",
+    "answersDE": [
+      "Der Staat",
+      "Die Bundeslaender",
+      "Die Eltern",
+      "Die Schulen"
+    ],
+    "answersEN": [
+      "The state",
+      "The federal states",
+      "The parents",
+      "The schools"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 243,
+    "questionDE": "Welchen Schulabschluss braucht man fuer die Uni?",
+    "questionEN": "What qualification do you need for university?",
+    "answersDE": [
+      "Abitur",
+      "Diplom",
+      "Prokura",
+      "Gesellenpruefung"
+    ],
+    "answersEN": [
+      "Abitur",
+      "Diploma",
+      "Prokura",
+      "Journeyman's exam"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 244,
+    "questionDE": "Wohin meldet man sich bei Umzug an?",
+    "questionEN": "Where do you register when moving?",
+    "answersDE": [
+      "Einwohnermeldeamt",
+      "Standesamt",
+      "Ordnungsamt",
+      "Gewerbeamt"
+    ],
+    "answersEN": [
+      "Residents registration",
+      "Registry office",
+      "Public order office",
+      "Trade office"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 245,
+    "questionDE": "Wo beginnt man die Eheschliessung?",
+    "questionEN": "Where do you start the marriage process?",
+    "answersDE": [
+      "Einwohnermeldeamt",
+      "Ordnungsamt",
+      "Arbeitsamt",
+      "Standesamt"
+    ],
+    "answersEN": [
+      "Registration office",
+      "Order office",
+      "Employment office",
+      "Registry office"
+    ],
+    "correctIndex": 3,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 246,
+    "questionDE": "Wann beginnt die Nachtruhe?",
+    "questionEN": "When does quiet hours begin?",
+    "answersDE": [
+      "Bei Sonnenuntergang",
+      "22 Uhr",
+      "Wenn Nachbarn schlafen",
+      "Mitternacht"
+    ],
+    "answersEN": [
+      "At sunset",
+      "10 PM",
+      "When neighbors sleep",
+      "Midnight"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 247,
+    "questionDE": "Kinder von 3-6 Jahren haben Recht auf...",
+    "questionEN": "Children ages 3-6 have a right to...",
+    "answersDE": [
+      "Monatliches Taschengeld",
+      "Einen Kindergartenplatz",
+      "Einen Sportvereinplatz",
+      "Einen Ferienpass"
+    ],
+    "answersEN": [
+      "Monthly allowance",
+      "A kindergarten place",
+      "A sports club place",
+      "A holiday pass"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 248,
+    "questionDE": "Was ist ein deutsches Weihnachtssymbol?",
+    "questionEN": "What is a German Christmas symbol?",
+    "answersDE": [
+      "Bunte Eier verstecken",
+      "Einen Tannenbaum",
+      "Masken und Kostueme",
+      "Kuerbisse"
+    ],
+    "answersEN": [
+      "Hiding colored eggs",
+      "A Christmas tree",
+      "Masks and costumes",
+      "Pumpkins"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 249,
+    "questionDE": "Wann ist Rosenmontag ein Feiertag?",
+    "questionEN": "When is Carnival Monday?",
+    "answersDE": [
+      "An Ostern",
+      "Im Karneval",
+      "Am Oktoberfest",
+      "An Pfingsten"
+    ],
+    "answersEN": [
+      "At Easter",
+      "During Carnival",
+      "At Oktoberfest",
+      "At Pentecost"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 250,
+    "questionDE": "Was ist eine Ostertradition?",
+    "questionEN": "What is an Easter tradition?",
+    "answersDE": [
+      "Kuerbisse an der Tuer",
+      "Geschmueckter Baum",
+      "Bemalte Eier",
+      "Feuerwerk"
+    ],
+    "answersEN": [
+      "Pumpkins at the door",
+      "Decorated tree",
+      "Painted eggs",
+      "Fireworks"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 251,
+    "questionDE": "Ein Mann und eine Frau duerfen nur heiraten, wenn...",
+    "questionEN": "A man and woman may only marry if...",
+    "answersDE": [
+      "beide 18 Jahre alt sind",
+      "sie verschiedene Religionen haben",
+      "beide arbeiten",
+      "die Eltern zustimmen"
+    ],
+    "answersEN": [
+      "both are 18 years old",
+      "they have different religions",
+      "both work",
+      "parents agree"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 252,
+    "questionDE": "Wann muss man in Deutschland den Personalausweis zeigen?",
+    "questionEN": "When must you show your ID in Germany?",
+    "answersDE": [
+      "Beim Einkaufen",
+      "Bei Polizeikontrolle oder Behoerde",
+      "In der Schule",
+      "Im Restaurant"
+    ],
+    "answersEN": [
+      "When shopping",
+      "At police check or authority",
+      "At school",
+      "In a restaurant"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 253,
+    "questionDE": "Wann bekommt man in Deutschland einen Reisepass?",
+    "questionEN": "When do you get a passport in Germany?",
+    "answersDE": [
+      "Bei Geburt automatisch",
+      "Nach Antrag mit Gebuehr",
+      "Nur als Erwachsener",
+      "Nur fuer Urlaub"
+    ],
+    "answersEN": [
+      "Automatically at birth",
+      "After application with fee",
+      "Only as adult",
+      "Only for vacation"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 254,
+    "questionDE": "Bis zu welchem Alter gilt man in Deutschland als Kind?",
+    "questionEN": "Until what age is one considered a child in Germany?",
+    "answersDE": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "answersEN": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 255,
+    "questionDE": "Ab welchem Alter darf man in Deutschland Bier trinken?",
+    "questionEN": "From what age can you drink beer in Germany?",
+    "answersDE": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "answersEN": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 256,
+    "questionDE": "Ab welchem Alter darf man in Deutschland harte Alkoholika trinken?",
+    "questionEN": "From what age can you drink hard liquor in Germany?",
+    "answersDE": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "answersEN": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 257,
+    "questionDE": "Ab welchem Alter darf man in Deutschland rauchen?",
+    "questionEN": "From what age can you smoke in Germany?",
+    "answersDE": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "answersEN": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 258,
+    "questionDE": "Was ist in Deutschland beim Autofahren verboten?",
+    "questionEN": "What is forbidden when driving in Germany?",
+    "answersDE": [
+      "Radio hoeren",
+      "Alkohol trinken",
+      "Fenster oeffnen",
+      "Beifahrer mitnehmen"
+    ],
+    "answersEN": [
+      "Listening to radio",
+      "Drinking alcohol",
+      "Opening window",
+      "Taking passengers"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 259,
+    "questionDE": "Was gilt beim Autofahren in Deutschland?",
+    "questionEN": "What applies when driving in Germany?",
+    "answersDE": [
+      "Promillegrenze",
+      "Keine Geschwindigkeitsbegrenzung ueberall",
+      "Telefonieren ist erlaubt",
+      "Gurt ist freiwillig"
+    ],
+    "answersEN": [
+      "Blood alcohol limit",
+      "No speed limit everywhere",
+      "Phone use allowed",
+      "Seatbelt is voluntary"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 260,
+    "questionDE": "Was ist das GEZ/der Rundfunkbeitrag?",
+    "questionEN": "What is the broadcasting fee?",
+    "answersDE": [
+      "Steuer fuer Radio und TV",
+      "Gebuehr fuer oeffentlich-rechtlichen Rundfunk",
+      "Strafe fuer laute Musik",
+      "Eine Versicherung"
+    ],
+    "answersEN": [
+      "Tax for radio and TV",
+      "Fee for public broadcasting",
+      "Penalty for loud music",
+      "An insurance"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 261,
+    "questionDE": "Wer muss in Deutschland den Rundfunkbeitrag zahlen?",
+    "questionEN": "Who must pay the broadcasting fee in Germany?",
+    "answersDE": [
+      "Nur Fernsehbesitzer",
+      "Jeder Haushalt",
+      "Nur Deutsche",
+      "Nur Rentner"
+    ],
+    "answersEN": [
+      "Only TV owners",
+      "Every household",
+      "Only Germans",
+      "Only pensioners"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 262,
+    "questionDE": "Was ist in Deutschland ab 18 Jahren erlaubt?",
+    "questionEN": "What is allowed in Germany from age 18?",
+    "answersDE": [
+      "In die Schule gehen",
+      "Waehlen",
+      "Bier trinken",
+      "Fahrrad fahren"
+    ],
+    "answersEN": [
+      "Going to school",
+      "Voting",
+      "Drinking beer",
+      "Riding a bike"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 263,
+    "questionDE": "Was ist die Nachtruhe in Deutschland?",
+    "questionEN": "What is quiet hours in Germany?",
+    "answersDE": [
+      "22 bis 6 Uhr",
+      "Mitternacht bis 6 Uhr",
+      "20 bis 8 Uhr",
+      "Es gibt keine"
+    ],
+    "answersEN": [
+      "10 PM to 6 AM",
+      "Midnight to 6 AM",
+      "8 PM to 8 AM",
+      "There is none"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 264,
+    "questionDE": "Welcher deutsche Schriftsteller schrieb Faust?",
+    "questionEN": "Which German writer wrote Faust?",
+    "answersDE": [
+      "Schiller",
+      "Goethe",
+      "Brecht",
+      "Mann"
+    ],
+    "answersEN": [
+      "Schiller",
+      "Goethe",
+      "Brecht",
+      "Mann"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 265,
+    "questionDE": "Welcher deutsche Komponist schrieb die 9. Sinfonie?",
+    "questionEN": "Which German composer wrote the 9th Symphony?",
+    "answersDE": [
+      "Bach",
+      "Mozart",
+      "Beethoven",
+      "Wagner"
+    ],
+    "answersEN": [
+      "Bach",
+      "Mozart",
+      "Beethoven",
+      "Wagner"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 266,
+    "questionDE": "Wer war Albert Einstein?",
+    "questionEN": "Who was Albert Einstein?",
+    "answersDE": [
+      "Ein Politiker",
+      "Ein Physiker",
+      "Ein Musiker",
+      "Ein Maler"
+    ],
+    "answersEN": [
+      "A politician",
+      "A physicist",
+      "A musician",
+      "A painter"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 267,
+    "questionDE": "Wofuer ist Johann Sebastian Bach bekannt?",
+    "questionEN": "What is Johann Sebastian Bach known for?",
+    "answersDE": [
+      "Malerei",
+      "Musik",
+      "Philosophie",
+      "Medizin"
+    ],
+    "answersEN": [
+      "Painting",
+      "Music",
+      "Philosophy",
+      "Medicine"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 268,
+    "questionDE": "Was ist die deutsche Nationalhymne?",
+    "questionEN": "What is the German national anthem?",
+    "answersDE": [
+      "Freude schoener Goetterfunken",
+      "Einigkeit und Recht und Freiheit",
+      "Deutschland ueber alles",
+      "Stille Nacht"
+    ],
+    "answersEN": [
+      "Ode to Joy",
+      "Unity and Justice and Freedom",
+      "Germany Above All",
+      "Silent Night"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 269,
+    "questionDE": "Welche Farben hat die deutsche Flagge?",
+    "questionEN": "What colors does the German flag have?",
+    "answersDE": [
+      "Rot-Weiss-Blau",
+      "Schwarz-Rot-Gold",
+      "Blau-Weiss",
+      "Gruen-Weiss-Rot"
+    ],
+    "answersEN": [
+      "Red-White-Blue",
+      "Black-Red-Gold",
+      "Blue-White",
+      "Green-White-Red"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 270,
+    "questionDE": "Was ist die Hauptstadt von Deutschland?",
+    "questionEN": "What is the capital of Germany?",
+    "answersDE": [
+      "Muenchen",
+      "Hamburg",
+      "Berlin",
+      "Frankfurt"
+    ],
+    "answersEN": [
+      "Munich",
+      "Hamburg",
+      "Berlin",
+      "Frankfurt"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 271,
+    "questionDE": "Wie heisst der laengste Fluss in Deutschland?",
+    "questionEN": "What is the longest river in Germany?",
+    "answersDE": [
+      "Elbe",
+      "Donau",
+      "Rhein",
+      "Main"
+    ],
+    "answersEN": [
+      "Elbe",
+      "Danube",
+      "Rhine",
+      "Main"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 272,
+    "questionDE": "Was ist der hoechste Berg in Deutschland?",
+    "questionEN": "What is the highest mountain in Germany?",
+    "answersDE": [
+      "Feldberg",
+      "Brocken",
+      "Zugspitze",
+      "Watzmann"
+    ],
+    "answersEN": [
+      "Feldberg",
+      "Brocken",
+      "Zugspitze",
+      "Watzmann"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 273,
+    "questionDE": "Welche Grossstadt liegt in Bayern?",
+    "questionEN": "Which major city is in Bavaria?",
+    "answersDE": [
+      "Hamburg",
+      "Koeln",
+      "Muenchen",
+      "Berlin"
+    ],
+    "answersEN": [
+      "Hamburg",
+      "Cologne",
+      "Munich",
+      "Berlin"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 274,
+    "questionDE": "Was ist typisch deutsches Essen?",
+    "questionEN": "What is typical German food?",
+    "answersDE": [
+      "Pizza",
+      "Sushi",
+      "Bratwurst",
+      "Paella"
+    ],
+    "answersEN": [
+      "Pizza",
+      "Sushi",
+      "Bratwurst",
+      "Paella"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 275,
+    "questionDE": "Was ist der Schwarzwald?",
+    "questionEN": "What is the Black Forest?",
+    "answersDE": [
+      "Ein See",
+      "Ein Gebirge im Suedwesten",
+      "Eine Stadt",
+      "Ein Fluss"
+    ],
+    "answersEN": [
+      "A lake",
+      "A mountain range in the southwest",
+      "A city",
+      "A river"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 276,
+    "questionDE": "Was ist die Loreley?",
+    "questionEN": "What is the Loreley?",
+    "answersDE": [
+      "Ein Berg",
+      "Ein Felsen am Rhein",
+      "Eine Stadt",
+      "Ein See"
+    ],
+    "answersEN": [
+      "A mountain",
+      "A rock on the Rhine",
+      "A city",
+      "A lake"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 277,
+    "questionDE": "Was ist das Brandenburger Tor?",
+    "questionEN": "What is the Brandenburg Gate?",
+    "answersDE": [
+      "Ein Bahnhof",
+      "Ein Wahrzeichen in Berlin",
+      "Ein Museum",
+      "Ein Flughafen"
+    ],
+    "answersEN": [
+      "A train station",
+      "A landmark in Berlin",
+      "A museum",
+      "An airport"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 278,
+    "questionDE": "Welches Bundesland ist flaechenmaessig das groesste?",
+    "questionEN": "Which federal state is the largest by area?",
+    "answersDE": [
+      "Nordrhein-Westfalen",
+      "Bayern",
+      "Baden-Wuerttemberg",
+      "Niedersachsen"
+    ],
+    "answersEN": [
+      "North Rhine-Westphalia",
+      "Bavaria",
+      "Baden-Wuerttemberg",
+      "Lower Saxony"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 279,
+    "questionDE": "Welches Bundesland hat die meisten Einwohner?",
+    "questionEN": "Which federal state has the most inhabitants?",
+    "answersDE": [
+      "Bayern",
+      "Nordrhein-Westfalen",
+      "Baden-Wuerttemberg",
+      "Hessen"
+    ],
+    "answersEN": [
+      "Bavaria",
+      "North Rhine-Westphalia",
+      "Baden-Wuerttemberg",
+      "Hesse"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 280,
+    "questionDE": "Welche Stadt liegt an der Elbe?",
+    "questionEN": "Which city is on the Elbe?",
+    "answersDE": [
+      "Muenchen",
+      "Hamburg",
+      "Frankfurt",
+      "Stuttgart"
+    ],
+    "answersEN": [
+      "Munich",
+      "Hamburg",
+      "Frankfurt",
+      "Stuttgart"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 281,
+    "questionDE": "Welche Stadt ist fuer den Hafen bekannt?",
+    "questionEN": "Which city is known for its harbor?",
+    "answersDE": [
+      "Muenchen",
+      "Hamburg",
+      "Berlin",
+      "Stuttgart"
+    ],
+    "answersEN": [
+      "Munich",
+      "Hamburg",
+      "Berlin",
+      "Stuttgart"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 282,
+    "questionDE": "Wo findet die Frankfurter Buchmesse statt?",
+    "questionEN": "Where is the Frankfurt Book Fair held?",
+    "answersDE": [
+      "Berlin",
+      "Hamburg",
+      "Frankfurt am Main",
+      "Muenchen"
+    ],
+    "answersEN": [
+      "Berlin",
+      "Hamburg",
+      "Frankfurt am Main",
+      "Munich"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 283,
+    "questionDE": "Was ist der Koelner Dom?",
+    "questionEN": "What is Cologne Cathedral?",
+    "answersDE": [
+      "Ein Rathaus",
+      "Eine gotische Kirche",
+      "Ein Museum",
+      "Ein Theater"
+    ],
+    "answersEN": [
+      "A city hall",
+      "A Gothic church",
+      "A museum",
+      "A theater"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 284,
+    "questionDE": "Was sind die Alpen?",
+    "questionEN": "What are the Alps?",
+    "answersDE": [
+      "Ein Fluss",
+      "Ein Gebirge im Sueden",
+      "Eine Insel",
+      "Ein Wald"
+    ],
+    "answersEN": [
+      "A river",
+      "A mountain range in the south",
+      "An island",
+      "A forest"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 285,
+    "questionDE": "Was ist die Nordsee?",
+    "questionEN": "What is the North Sea?",
+    "answersDE": [
+      "Ein See",
+      "Ein Meer im Norden Deutschlands",
+      "Ein Fluss",
+      "Ein Berg"
+    ],
+    "answersEN": [
+      "A lake",
+      "A sea in northern Germany",
+      "A river",
+      "A mountain"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 286,
+    "questionDE": "Was ist die Ostsee?",
+    "questionEN": "What is the Baltic Sea?",
+    "answersDE": [
+      "Ein Fluss",
+      "Ein See",
+      "Ein Meer im Nordosten",
+      "Ein Kanal"
+    ],
+    "answersEN": [
+      "A river",
+      "A lake",
+      "A sea in the northeast",
+      "A canal"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 287,
+    "questionDE": "Welche Insel gehoert zu Deutschland?",
+    "questionEN": "Which island belongs to Germany?",
+    "answersDE": [
+      "Mallorca",
+      "Ruegen",
+      "Kreta",
+      "Sizilien"
+    ],
+    "answersEN": [
+      "Mallorca",
+      "Ruegen",
+      "Crete",
+      "Sicily"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 288,
+    "questionDE": "Was ist das Ruhrgebiet?",
+    "questionEN": "What is the Ruhr area?",
+    "answersDE": [
+      "Ein Naturpark",
+      "Ein Industriegebiet in NRW",
+      "Eine Insel",
+      "Ein Gebirge"
+    ],
+    "answersEN": [
+      "A nature park",
+      "An industrial area in NRW",
+      "An island",
+      "A mountain range"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 289,
+    "questionDE": "Welche Stadt ist bekannt fuer die Automobilindustrie?",
+    "questionEN": "Which city is known for the automotive industry?",
+    "answersDE": [
+      "Hamburg",
+      "Wolfsburg",
+      "Berlin",
+      "Koeln"
+    ],
+    "answersEN": [
+      "Hamburg",
+      "Wolfsburg",
+      "Berlin",
+      "Cologne"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 290,
+    "questionDE": "Was ist die Deutsche Bank?",
+    "questionEN": "What is Deutsche Bank?",
+    "answersDE": [
+      "Die Zentralbank",
+      "Ein privates Kreditinstitut",
+      "Die Bundesbank",
+      "Ein Ministerium"
+    ],
+    "answersEN": [
+      "The central bank",
+      "A private bank",
+      "The Federal Bank",
+      "A ministry"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 291,
+    "questionDE": "Was ist der Euro?",
+    "questionEN": "What is the Euro?",
+    "answersDE": [
+      "Die alte deutsche Waehrung",
+      "Die Waehrung in der EU",
+      "Eine Bank",
+      "Ein Index"
+    ],
+    "answersEN": [
+      "The old German currency",
+      "The currency in the EU",
+      "A bank",
+      "An index"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 292,
+    "questionDE": "Seit wann gibt es den Euro?",
+    "questionEN": "Since when has the Euro existed?",
+    "answersDE": [
+      "1990",
+      "1995",
+      "2002",
+      "2010"
+    ],
+    "answersEN": [
+      "1990",
+      "1995",
+      "2002",
+      "2010"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 293,
+    "questionDE": "Was war die D-Mark?",
+    "questionEN": "What was the D-Mark?",
+    "answersDE": [
+      "Ein Dokument",
+      "Die fruehere deutsche Waehrung",
+      "Eine Bank",
+      "Ein Gesetz"
+    ],
+    "answersEN": [
+      "A document",
+      "The former German currency",
+      "A bank",
+      "A law"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 294,
+    "questionDE": "Was ist die Bundeswehr?",
+    "questionEN": "What is the Bundeswehr?",
+    "answersDE": [
+      "Die Polizei",
+      "Die deutsche Armee",
+      "Der Geheimdienst",
+      "Die Feuerwehr"
+    ],
+    "answersEN": [
+      "The police",
+      "The German army",
+      "The secret service",
+      "The fire department"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 295,
+    "questionDE": "Wie heisst der deutsche Nachrichtendienst?",
+    "questionEN": "What is the German intelligence service called?",
+    "answersDE": [
+      "CIA",
+      "BND",
+      "FBI",
+      "MI6"
+    ],
+    "answersEN": [
+      "CIA",
+      "BND",
+      "FBI",
+      "MI6"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 296,
+    "questionDE": "Was bedeutet ARD?",
+    "questionEN": "What does ARD stand for?",
+    "answersDE": [
+      "Eine Partei",
+      "Oeffentlich-rechtlicher Rundfunk",
+      "Eine Zeitung",
+      "Ein Verlag"
+    ],
+    "answersEN": [
+      "A party",
+      "Public broadcasting",
+      "A newspaper",
+      "A publisher"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 297,
+    "questionDE": "Was ist das ZDF?",
+    "questionEN": "What is ZDF?",
+    "answersDE": [
+      "Ein Radiosender",
+      "Ein oeffentlicher Fernsehsender",
+      "Eine Zeitung",
+      "Ein Privatsender"
+    ],
+    "answersEN": [
+      "A radio station",
+      "A public TV channel",
+      "A newspaper",
+      "A private channel"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 298,
+    "questionDE": "Was ist typisch fuer deutschen Fussball?",
+    "questionEN": "What is typical for German football?",
+    "answersDE": [
+      "Die Bundesliga",
+      "Die Premier League",
+      "La Liga",
+      "Serie A"
+    ],
+    "answersEN": [
+      "Bundesliga",
+      "Premier League",
+      "La Liga",
+      "Serie A"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 299,
+    "questionDE": "Wann war Deutschland Fussball-Weltmeister?",
+    "questionEN": "When was Germany Football World Champion?",
+    "answersDE": [
+      "1990 und 2014",
+      "1998 und 2006",
+      "2002 und 2010",
+      "Nie"
+    ],
+    "answersEN": [
+      "1990 and 2014",
+      "1998 and 2006",
+      "2002 and 2010",
+      "Never"
+    ],
+    "correctIndex": 0,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 300,
+    "questionDE": "Wie viele Einwohner hat Deutschland circa?",
+    "questionEN": "How many inhabitants does Germany have approximately?",
+    "answersDE": [
+      "60 Millionen",
+      "70 Millionen",
+      "84 Millionen",
+      "100 Millionen"
+    ],
+    "answersEN": [
+      "60 million",
+      "70 million",
+      "84 million",
+      "100 million"
+    ],
+    "correctIndex": 2,
+    "category": "society",
+    "isBerlin": false
+  },
+  {
+    "id": 301,
+    "questionDE": "Welches Wappen gehoert zu Berlin?",
+    "questionEN": "Which coat of arms belongs to Berlin?",
+    "answersDE": [
+      "Der Loewe",
+      "Der Adler",
+      "Der Stier",
+      "Der Baer"
+    ],
+    "answersEN": [
+      "The lion",
+      "The eagle",
+      "The bull",
+      "The bear"
+    ],
+    "correctIndex": 3,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 302,
+    "questionDE": "Welches ist ein Bezirk von Berlin?",
+    "questionEN": "Which is a district of Berlin?",
+    "answersDE": [
+      "Altona",
+      "Prenzlauer Berg",
+      "Schwabing",
+      "Sachsenhausen"
+    ],
+    "answersEN": [
+      "Altona",
+      "Prenzlauer Berg",
+      "Schwabing",
+      "Sachsenhausen"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 303,
+    "questionDE": "Fuer wie viele Jahre wird der Berliner Senat gewaehlt?",
+    "questionEN": "For how many years is Berlin's senate elected?",
+    "answersDE": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answersEN": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 304,
+    "questionDE": "Ab welchem Alter darf man in Berlin bei Kommunalwahlen waehlen?",
+    "questionEN": "At what age can you vote in Berlin local elections?",
+    "answersDE": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "answersEN": [
+      "14",
+      "16",
+      "18",
+      "21"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 305,
+    "questionDE": "Welche Farben hat die Landesflagge von Berlin?",
+    "questionEN": "What colors does Berlin's flag have?",
+    "answersDE": [
+      "Blau-weiss",
+      "Weiss-rot",
+      "Gruen-weiss",
+      "Schwarz-gold"
+    ],
+    "answersEN": [
+      "Blue-white",
+      "White-red",
+      "Green-white",
+      "Black-gold"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 306,
+    "questionDE": "Welches Bundesland ist ein Stadtstaat?",
+    "questionEN": "Which federal state is a city-state?",
+    "answersDE": [
+      "Saarland",
+      "Berlin",
+      "Brandenburg",
+      "Hessen"
+    ],
+    "answersEN": [
+      "Saarland",
+      "Berlin",
+      "Brandenburg",
+      "Hesse"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 307,
+    "questionDE": "Wie heisst der Regierungschef von Berlin?",
+    "questionEN": "What is Berlin's head of government called?",
+    "answersDE": [
+      "Erster Buergermeister",
+      "Ministerpraesidentin",
+      "Regierender Buergermeister",
+      "Landesvater"
+    ],
+    "answersEN": [
+      "First Mayor",
+      "Minister President",
+      "Governing Mayor",
+      "State Father"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 308,
+    "questionDE": "Welchen Senator gibt es in Berlin nicht?",
+    "questionEN": "Which senator does Berlin not have?",
+    "answersDE": [
+      "Finanzsenator",
+      "Innensenator",
+      "Aussensenator",
+      "Bildungssenator"
+    ],
+    "answersEN": [
+      "Finance Senator",
+      "Interior Senator",
+      "Foreign Relations Senator",
+      "Education Senator"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 309,
+    "questionDE": "Wo bekommt man in Berlin Infos zu Politik?",
+    "questionEN": "Where do you get political info in Berlin?",
+    "answersDE": [
+      "Im Rathaus",
+      "Landeszentrale fuer politische Bildung",
+      "In der Bibliothek",
+      "Im Buergeramt"
+    ],
+    "answersEN": [
+      "City hall",
+      "State Center for Political Education",
+      "Library",
+      "Citizens office"
+    ],
+    "correctIndex": 1,
+    "category": "democracy",
+    "isBerlin": true
+  },
+  {
+    "id": 310,
+    "questionDE": "Berlin ist...",
+    "questionEN": "Berlin is...",
+    "answersDE": [
+      "Ein Flaechenstaat",
+      "Eine Gemeinde",
+      "Ein Stadtstaat",
+      "Ein Landkreis"
+    ],
+    "answersEN": [
+      "A territorial state",
+      "A municipality",
+      "A city-state",
+      "A district"
+    ],
+    "correctIndex": 2,
+    "category": "democracy",
+    "isBerlin": true
+  }
+]
