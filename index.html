@@ -68,20 +68,31 @@
         <div class="progress-fill" id="progress-fill" style="width:0%"></div>
       </div>
 
-      <div class="question-card">
-        <div class="question-number" id="question-number">Frage 1</div>
-        <div class="question-de" id="question-de"></div>
-        <div class="question-en" id="question-en"></div>
-        <div class="lang-toggle">
-          <div class="lang-toggle-pill">
-            <button class="lang-toggle-btn active" id="lang-de" onclick="setLanguage('de')">
-              <span class="lang-flag">🇩🇪</span> DE
-            </button>
-            <button class="lang-toggle-btn" id="lang-en" onclick="setLanguage('en')">
-              <span class="lang-flag">🇬🇧</span> EN
-            </button>
+      <div class="browse-nav-wrapper">
+        <button class="browse-nav-btn browse-prev" onclick="prevBrowseQuestion()" aria-label="Previous question">
+          &#8592;
+        </button>
+
+        <div class="question-card">
+          <div class="status-badge" id="status-badge" style="display:none;"></div>
+          <div class="question-number" id="question-number">Frage 1</div>
+          <div class="question-de" id="question-de"></div>
+          <div class="question-en" id="question-en"></div>
+          <div class="lang-toggle">
+            <div class="lang-toggle-pill">
+              <button class="lang-toggle-btn active" id="lang-de" onclick="setLanguage('de')">
+                <span class="lang-flag">🇩🇪</span> DE
+              </button>
+              <button class="lang-toggle-btn" id="lang-en" onclick="setLanguage('en')">
+                <span class="lang-flag">🇬🇧</span> EN
+              </button>
+            </div>
           </div>
         </div>
+
+        <button class="browse-nav-btn browse-next" onclick="nextBrowseQuestion()" aria-label="Next question">
+          &#8594;
+        </button>
       </div>
 
       <div class="answers" id="answers" role="group" aria-label="Answer options"></div>

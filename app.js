@@ -14,6 +14,13 @@ let startTime = null;
 let timerInterval = null;
 let translationVisible = false;
 
+// Browse mode state
+let browseQuestions = [];      // Full filtered list for browsing
+let browseIndex = 0;           // Current position in browse list
+let browseFilter = 'all';      // Current category filter
+let browseScrollPosition = 0;  // Scroll position to restore
+let swipeHandlersInitialized = false;  // Prevent duplicate listeners
+
 // Load questions from JSON file
 async function loadQuestions() {
   try {
@@ -192,11 +199,28 @@ function setLanguage(lang) {
 // Question display
 function showQuestion() {
   translationVisible = false;
-  const q = currentQuestions[currentIndex];
-  const total = currentQuestions.length;
 
-  document.getElementById('quiz-progress').textContent = (currentIndex + 1) + '/' + total;
-  document.getElementById('progress-fill').style.width = ((currentIndex + 1) / total * 100) + '%';
+  // Determine which question to show based on mode
+  let q, displayIndex, totalQuestions;
+
+  if (currentMode === 'browse') {
+    q = browseQuestions[browseIndex];
+    displayIndex = browseIndex + 1;
+    totalQuestions = browseQuestions.length;
+  } else {
+    q = currentQuestions[currentIndex];
+    displayIndex = currentIndex + 1;
+    totalQuestions = currentQuestions.length;
+  }
+
+  // Update progress display
+  let progressText = displayIndex + '/' + totalQuestions;
+  if (currentMode === 'browse' && browseFilter !== 'all') {
+    progressText += ' (' + browseFilter.charAt(0).toUpperCase() + browseFilter.slice(1) + ')';
+  }
+
+  document.getElementById('quiz-progress').textContent = progressText;
+  document.getElementById('progress-fill').style.width = (displayIndex / totalQuestions * 100) + '%';
   document.getElementById('question-number').textContent = 'Frage ' + q.id;
   document.getElementById('question-de').textContent = q.questionDE;
   document.getElementById('question-en').textContent = q.questionEN;
@@ -205,6 +229,28 @@ function showQuestion() {
   // Reset language toggle to DE
   document.getElementById('lang-de').classList.add('active');
   document.getElementById('lang-en').classList.remove('active');
+
+  // Show status badge in browse mode
+  const statusBadge = document.getElementById('status-badge');
+  if (statusBadge && currentMode === 'browse') {
+    const status = getQuestionStatus(q.id);
+    statusBadge.className = 'status-badge status-' + status;
+
+    if (status === 'learned') {
+      statusBadge.textContent = '\u2713';
+      statusBadge.setAttribute('aria-label', 'Previously answered correctly');
+    } else if (status === 'wrong') {
+      statusBadge.textContent = '\u2717';
+      statusBadge.setAttribute('aria-label', 'Needs review');
+    } else {
+      statusBadge.textContent = '\u25CB';
+      statusBadge.setAttribute('aria-label', 'New question');
+    }
+
+    statusBadge.style.display = 'flex';
+  } else if (statusBadge) {
+    statusBadge.style.display = 'none';
+  }
 
   const answersContainer = document.getElementById('answers');
   answersContainer.innerHTML = '';
@@ -233,7 +279,8 @@ function showQuestion() {
 
 // Answer selection
 function selectAnswer(index) {
-  const q = currentQuestions[currentIndex];
+  // Get correct question based on mode
+  const q = (currentMode === 'browse') ? browseQuestions[browseIndex] : currentQuestions[currentIndex];
   const buttons = document.querySelectorAll('.answer-btn');
   const progress = loadProgress();
 
@@ -275,6 +322,15 @@ function nextQuestion() {
 
 function endQuiz() {
   if (timerInterval) clearInterval(timerInterval);
+
+  // Handle browse mode
+  if (currentMode === 'browse') {
+    // Remove browse mode class
+    document.getElementById('quiz-screen').classList.remove('browse-mode');
+    returnToCatalog();
+    return;
+  }
+
   if (currentIndex > 0) {
     showResults();
   } else {
@@ -330,6 +386,113 @@ function showResults() {
   showScreen('results-screen');
 }
 
+// Helper: Get question review status
+function getQuestionStatus(questionId) {
+  const progress = loadProgress();
+  if (progress.learned.includes(questionId)) return 'learned';
+  if (progress.wrong.includes(questionId)) return 'wrong';
+  return 'new';
+}
+
+// Helper: Return to catalog with preserved state
+function returnToCatalog() {
+  showScreen('catalog-screen');
+  filterCategory(browseFilter);
+
+  // Restore scroll position
+  const catalogList = document.getElementById('catalog-list');
+  if (catalogList) {
+    catalogList.scrollTop = browseScrollPosition;
+  }
+}
+
+// Browse mode navigation
+function prevBrowseQuestion() {
+  if (currentMode !== 'browse') return;
+
+  // Wrap around to last question
+  browseIndex--;
+  if (browseIndex < 0) {
+    browseIndex = browseQuestions.length - 1;
+  }
+
+  showQuestion();
+}
+
+function nextBrowseQuestion() {
+  if (currentMode !== 'browse') return;
+
+  // Wrap around to first question
+  browseIndex++;
+  if (browseIndex >= browseQuestions.length) {
+    browseIndex = 0;
+  }
+
+  showQuestion();
+}
+
+// Swipe gesture handling
+function initSwipeHandlers() {
+  // Prevent duplicate initialization
+  if (swipeHandlersInitialized) return;
+  swipeHandlersInitialized = true;
+
+  const questionCard = document.querySelector('.question-card');
+  if (!questionCard) return;
+
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  questionCard.addEventListener('touchstart', function(e) {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+
+  questionCard.addEventListener('touchmove', function(e) {
+    touchEndX = e.changedTouches[0].screenX;
+
+    // Visual feedback during swipe
+    const diff = touchEndX - touchStartX;
+    if (Math.abs(diff) > 10) {
+      questionCard.classList.toggle('swiping-left', diff < 0);
+      questionCard.classList.toggle('swiping-right', diff > 0);
+    }
+  }, { passive: true });
+
+  questionCard.addEventListener('touchend', function() {
+    const diff = touchEndX - touchStartX;
+
+    // Clear visual feedback
+    questionCard.classList.remove('swiping-left', 'swiping-right');
+
+    // Minimum swipe distance: 50px
+    if (Math.abs(diff) > 50 && currentMode === 'browse') {
+      if (diff > 0) {
+        // Swiped right -> previous question
+        prevBrowseQuestion();
+      } else {
+        // Swiped left -> next question
+        nextBrowseQuestion();
+      }
+    }
+
+    touchStartX = 0;
+    touchEndX = 0;
+  }, { passive: true });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    if (currentMode !== 'browse') return;
+
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      prevBrowseQuestion();
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      nextBrowseQuestion();
+    }
+  });
+}
+
 // Catalog
 function showCatalog() {
   showScreen('catalog-screen');
@@ -345,6 +508,7 @@ function filterCategory(category) {
 
   const progress = loadProgress();
   const learned = new Set(progress.learned);
+  const wrong = new Set(progress.wrong);
 
   let filtered = questions;
   if (category !== 'all') {
@@ -355,12 +519,25 @@ function filterCategory(category) {
     }
   }
 
+  // Store for browse mode
+  browseQuestions = filtered;
+  browseFilter = category;
+
   const list = document.getElementById('catalog-list');
   list.innerHTML = '';
 
-  filtered.forEach(q => {
+  filtered.forEach((q, index) => {
     const div = document.createElement('div');
-    div.className = 'catalog-item' + (learned.has(q.id) ? ' learned' : '');
+
+    // Three-state styling
+    let statusClass = '';
+    if (learned.has(q.id)) {
+      statusClass = ' learned';
+    } else if (wrong.has(q.id)) {
+      statusClass = ' wrong';
+    }
+
+    div.className = 'catalog-item' + statusClass;
 
     // Safe DOM creation (prevents XSS)
     const textDiv = document.createElement('div');
@@ -369,13 +546,45 @@ function filterCategory(category) {
 
     const statusDiv = document.createElement('div');
     statusDiv.className = 'catalog-item-status';
-    statusDiv.textContent = learned.has(q.id) ? '\u2713' : '';
+
+    // Show appropriate icon
+    if (learned.has(q.id)) {
+      statusDiv.textContent = '\u2713';
+      statusDiv.classList.add('status-learned');
+    } else if (wrong.has(q.id)) {
+      statusDiv.textContent = '\u2717';
+      statusDiv.classList.add('status-wrong');
+    }
 
     div.appendChild(textDiv);
     div.appendChild(statusDiv);
-    div.onclick = function() { showSingle(q); };
+
+    // Enter browse mode at this index
+    div.onclick = function() {
+      // Save scroll position before leaving
+      browseScrollPosition = list.scrollTop;
+      showBrowse(index);
+    };
+
     list.appendChild(div);
   });
+}
+
+// Enter browse mode at specific question index
+function showBrowse(index) {
+  currentMode = 'browse';
+  browseIndex = index;
+  correctCount = 0;
+  wrongCount = 0;
+  startTime = Date.now();
+  showScreen('quiz-screen');
+  document.getElementById('quiz-timer').textContent = '';
+  if (timerInterval) clearInterval(timerInterval);
+
+  // Add browse mode class to quiz screen
+  document.getElementById('quiz-screen').classList.add('browse-mode');
+
+  showQuestion();
 }
 
 function showSingle(question) {
@@ -409,6 +618,13 @@ window.endQuiz = endQuiz;
 window.nextQuestion = nextQuestion;
 window.setLanguage = setLanguage;
 window.filterCategory = filterCategory;
+window.prevBrowseQuestion = prevBrowseQuestion;
+window.nextBrowseQuestion = nextBrowseQuestion;
 
 // Initialize app
 loadQuestions();
+
+// Initialize swipe handlers after DOM loads
+document.addEventListener('DOMContentLoaded', function() {
+  initSwipeHandlers();
+});

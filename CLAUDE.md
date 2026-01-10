@@ -74,7 +74,83 @@ leben-in-deutschland/
 └── vercel.json       # Vercel deployment configuration
 ```
 
+## Development Protocol
+
+### ⚠️ CRITICAL RULE: Always Test New Code
+
+**Before considering any code change complete, you MUST run parallel QA tests.**
+
+#### Testing Workflow
+
+1. **Make code changes** to any file (app.js, styles.css, index.html)
+2. **Start local server**: `python3 -m http.server 8000`
+3. **Run parallel QA agents** to test all affected features
+4. **Fix any issues** found by QA agents
+5. **Re-test** until all tests pass
+6. **Only then** mark the task as complete
+
+#### How to Run Parallel QA Tests
+
+Launch 3-4 specialized test agents in parallel using the Task tool:
+
+```javascript
+// Example: Testing browse mode features
+Task 1: Test navigation flow (basic nav, arrows, wrap-around)
+Task 2: Test status badges (display, states, updates)
+Task 3: Test catalog display (three states, styling)
+Task 4: Test swipe gestures (handlers, logic, feedback)
+```
+
+**Key Points:**
+- Run tests **in parallel** (single message, multiple Task calls)
+- Use `model: "haiku"` for faster execution
+- Each agent should check specific aspects with line number references
+- Agents should report bugs with severity levels
+
+#### What QA Agents Should Check
+
+1. **Functionality**: Does the feature work as designed?
+2. **Edge Cases**: Boundary conditions, wrap-around, empty states
+3. **Code Quality**: Memory leaks, duplicate listeners, performance
+4. **Integration**: Does it break existing features?
+5. **UI/UX**: Visual consistency, responsive design
+6. **Accessibility**: ARIA labels, semantic HTML
+
+#### Example QA Report Format
+
+```
+Feature: [Name]
+Status: PASS / FAIL
+Issues Found:
+- [CRITICAL] Memory leak in event listeners (line 123)
+- [MINOR] Button alignment off by 2px (line 456)
+Evidence: [Code references with line numbers]
+```
+
+---
+
 ## Recent Changes Made
+
+### Catalog Browse Mode (January 10, 2026)
+Added swipe navigation and status indicators for catalog browsing:
+- **Swipe gestures**: Swipe left/right to navigate between questions
+- **Arrow buttons**: Circular < > buttons on question card sides
+- **Keyboard navigation**: Left/Right arrow keys for desktop
+- **Status badges**: Three states (New, Learned ✓, Needs Review ✗)
+- **Smart back**: Returns to catalog with filter and scroll preserved
+- **Wrap-around**: Endless loop from last to first question
+- **Progress display**: Shows position like "43/310 (Democracy)"
+- **Consistent card height**: Fixed min-height to prevent size jumps
+
+**Files Modified:**
+- `app.js`: Added browse state, navigation functions, swipe handlers
+- `index.html`: Added navigation wrapper and status badge element
+- `styles.css`: Added browse mode styles, navigation buttons, badges
+
+**QA Testing:**
+- ✅ All 4 parallel QA agents passed
+- ✅ Fixed memory leak in swipe handlers
+- ✅ Fixed question card height consistency
 
 ### Language Toggle Redesign
 Changed from text-based "Tap to see translation" to a **toggle pill design**:
@@ -99,7 +175,7 @@ Changed from text-based "Tap to see translation" to a **toggle pill design**:
 ### Global State Variables (app.js)
 ```javascript
 let questions = [];           // All 310 questions from JSON
-let currentMode = null;       // 'practice' | 'exam' | 'single'
+let currentMode = null;       // 'practice' | 'exam' | 'single' | 'browse'
 let currentQuestions = [];    // Questions for current session
 let currentIndex = 0;         // Current question index
 let correctCount = 0;         // Correct answers this session
@@ -107,6 +183,13 @@ let wrongCount = 0;           // Wrong answers this session
 let startTime = null;         // Session start timestamp
 let timerInterval = null;     // Timer interval reference
 let translationVisible = false; // Translation toggle state
+
+// Browse mode state
+let browseQuestions = [];      // Full filtered list for browsing
+let browseIndex = 0;           // Current position in browse list
+let browseFilter = 'all';      // Current category filter
+let browseScrollPosition = 0;  // Scroll position to restore
+let swipeHandlersInitialized = false;  // Prevent duplicate listeners
 ```
 
 ### LocalStorage Schema
@@ -157,7 +240,15 @@ Key: `lid-progress`
 ### Catalog
 - `showCatalog()` - Display question catalog
 - `filterCategory(cat)` - Filter by category (all/democracy/history/society/berlin)
-- `showSingle(question)` - Practice a single question
+- `showSingle(question)` - Practice a single question (deprecated)
+- `showBrowse(index)` - Enter browse mode at specific question index
+
+### Browse Mode
+- `prevBrowseQuestion()` - Navigate to previous question (with wrap-around)
+- `nextBrowseQuestion()` - Navigate to next question (with wrap-around)
+- `returnToCatalog()` - Go back to catalog with preserved filter and scroll
+- `getQuestionStatus(id)` - Get review status ('new', 'learned', 'wrong')
+- `initSwipeHandlers()` - Initialize touch and keyboard event handlers
 
 ### Features
 - `setLanguage(lang)` - Toggle between DE/EN display ('de' or 'en')
