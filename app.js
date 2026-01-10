@@ -18,25 +18,53 @@ let translationVisible = false;
 async function loadQuestions() {
   try {
     const response = await fetch('questions.json');
-    questions = await response.json();
+    if (!response.ok) {
+      throw new Error('HTTP ' + response.status);
+    }
+    const data = await response.json();
+    if (!Array.isArray(data) || data.length === 0) {
+      throw new Error('Invalid questions format');
+    }
+    questions = data;
     updateStats();
-    console.log(`Loaded ${questions.length} questions`);
+    console.log('Loaded ' + questions.length + ' questions');
   } catch (error) {
     console.error('Failed to load questions:', error);
-    alert('Failed to load questions. Please refresh the page.');
+    const homeScreen = document.getElementById('home-screen');
+    if (homeScreen) {
+      const errorDiv = document.createElement('div');
+      errorDiv.style.cssText = 'color:#DD0000;text-align:center;padding:20px;';
+      errorDiv.textContent = 'Failed to load questions. Please refresh the page.';
+      homeScreen.insertBefore(errorDiv, homeScreen.firstChild);
+    }
   }
 }
 
-// Progress management (localStorage)
-function loadProgress() {
-  const data = localStorage.getItem('lid-progress');
-  return data ? JSON.parse(data) : {
+// Default progress structure
+function getDefaultProgress() {
+  return {
     learned: [],
     wrong: [],
     sessions: 0,
     streak: 0,
     lastDate: null
   };
+}
+
+// Progress management (localStorage) with error handling
+function loadProgress() {
+  try {
+    const data = localStorage.getItem('lid-progress');
+    if (!data) return getDefaultProgress();
+    const parsed = JSON.parse(data);
+    // Validate structure
+    if (!Array.isArray(parsed.learned)) parsed.learned = [];
+    if (!Array.isArray(parsed.wrong)) parsed.wrong = [];
+    return parsed;
+  } catch (error) {
+    console.error('Progress load failed:', error);
+    return getDefaultProgress();
+  }
 }
 
 function saveProgress(progress) {
@@ -168,7 +196,7 @@ function showQuestion() {
   const total = currentQuestions.length;
 
   document.getElementById('quiz-progress').textContent = (currentIndex + 1) + '/' + total;
-  document.getElementById('progress-fill').style.width = (currentIndex / total * 100) + '%';
+  document.getElementById('progress-fill').style.width = ((currentIndex + 1) / total * 100) + '%';
   document.getElementById('question-number').textContent = 'Frage ' + q.id;
   document.getElementById('question-de').textContent = q.questionDE;
   document.getElementById('question-en').textContent = q.questionEN;
@@ -184,10 +212,18 @@ function showQuestion() {
   q.answersDE.forEach((answerDE, index) => {
     const btn = document.createElement('button');
     btn.className = 'answer-btn';
-    btn.innerHTML = `
-      <div class="answer-de">${answerDE}</div>
-      <div class="answer-en">${q.answersEN[index]}</div>
-    `;
+
+    // Safe DOM creation (prevents XSS)
+    const answerDEDiv = document.createElement('div');
+    answerDEDiv.className = 'answer-de';
+    answerDEDiv.textContent = answerDE;
+
+    const answerENDiv = document.createElement('div');
+    answerENDiv.className = 'answer-en';
+    answerENDiv.textContent = q.answersEN[index];
+
+    btn.appendChild(answerDEDiv);
+    btn.appendChild(answerENDiv);
     btn.onclick = function() { selectAnswer(index); };
     answersContainer.appendChild(btn);
   });
@@ -325,10 +361,18 @@ function filterCategory(category) {
   filtered.forEach(q => {
     const div = document.createElement('div');
     div.className = 'catalog-item' + (learned.has(q.id) ? ' learned' : '');
-    div.innerHTML = `
-      <div class="catalog-item-text">${q.id}. ${q.questionDE.substring(0, 50)}...</div>
-      <div class="catalog-item-status">${learned.has(q.id) ? '&#10003;' : ''}</div>
-    `;
+
+    // Safe DOM creation (prevents XSS)
+    const textDiv = document.createElement('div');
+    textDiv.className = 'catalog-item-text';
+    textDiv.textContent = q.id + '. ' + q.questionDE.substring(0, 50) + '...';
+
+    const statusDiv = document.createElement('div');
+    statusDiv.className = 'catalog-item-status';
+    statusDiv.textContent = learned.has(q.id) ? '\u2713' : '';
+
+    div.appendChild(textDiv);
+    div.appendChild(statusDiv);
     div.onclick = function() { showSingle(q); };
     list.appendChild(div);
   });

@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Practice for the German Leben in Deutschland citizenship test with 310 official BAMF questions. Free quiz app for Berlin edition.">
+  <meta name="theme-color" content="#DD0000">
+  <meta property="og:title" content="Leben in Deutschland - Test Trainer">
+  <meta property="og:description" content="Free practice app for German citizenship test with 310 official questions">
+  <meta property="og:type" content="website">
   <title>Leben in Deutschland - Test Trainer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,7 +19,7 @@
     </div>
 
     <!-- Home Screen -->
-    <div id="home-screen" class="screen active">
+    <main id="home-screen" class="screen active" role="main" aria-label="Home">
       <div class="stats-bar">
         <div class="stat">
           <div class="stat-value" id="stat-learned">0</div>
@@ -30,31 +35,31 @@
         </div>
       </div>
 
-      <button class="mode-btn" onclick="startPractice()">
+      <button class="mode-btn" onclick="startPractice()" aria-label="Start daily practice with 20 random questions">
         <h3>Daily Practice</h3>
         <p>15-minute session with random questions</p>
       </button>
-      <button class="mode-btn" onclick="startExam()">
+      <button class="mode-btn" onclick="startExam()" aria-label="Start exam simulation with 33 questions">
         <h3>Exam Simulation</h3>
         <p>33 questions like the real test</p>
       </button>
-      <button class="mode-btn" onclick="showCatalog()">
+      <button class="mode-btn" onclick="showCatalog()" aria-label="Browse all 310 questions by category">
         <h3>Full Catalog</h3>
         <p>Browse all 310 questions by category</p>
       </button>
-      <button class="mode-btn" onclick="resetProgress()">
+      <button class="mode-btn" onclick="resetProgress()" aria-label="Reset all saved progress">
         <h3>Reset Progress</h3>
         <p>Clear all saved data</p>
       </button>
-    </div>
+    </main>
 
     <!-- Quiz Screen -->
-    <div id="quiz-screen" class="screen">
+    <section id="quiz-screen" class="screen" role="region" aria-label="Quiz">
       <div class="quiz-header">
-        <button class="back-btn" onclick="endQuiz()">&#8592;</button>
+        <button class="back-btn" onclick="endQuiz()" aria-label="End quiz and go back">&#8592;</button>
         <div class="progress-info">
-          <span id="quiz-progress">1/10</span>
-          <span class="timer" id="quiz-timer"></span>
+          <span id="quiz-progress" aria-label="Question progress">1/10</span>
+          <span class="timer" id="quiz-timer" aria-live="polite" aria-atomic="true"></span>
         </div>
         <div style="width:40px"></div>
       </div>
@@ -79,12 +84,12 @@
         </div>
       </div>
 
-      <div class="answers" id="answers"></div>
-      <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question</button>
-    </div>
+      <div class="answers" id="answers" role="group" aria-label="Answer options"></div>
+      <button class="next-btn" id="next-btn" onclick="nextQuestion()" aria-label="Go to next question">Next Question</button>
+    </section>
 
     <!-- Results Screen -->
-    <div id="results-screen" class="screen">
+    <section id="results-screen" class="screen" role="region" aria-label="Quiz Results">
       <div class="results-card">
         <div class="results-score" id="results-score">0</div>
         <div class="results-label">out of <span id="results-total">33</span> correct</div>
@@ -95,28 +100,28 @@
           <p><strong>Time:</strong> <span id="results-time">0:00</span></p>
         </div>
         <p id="results-message"></p>
-        <button class="home-btn" onclick="goHome()">Back to Home</button>
+        <button class="home-btn" onclick="goHome()" aria-label="Return to home screen">Back to Home</button>
       </div>
-    </div>
+    </section>
 
     <!-- Catalog Screen -->
-    <div id="catalog-screen" class="screen">
+    <section id="catalog-screen" class="screen" role="region" aria-label="Question Catalog">
       <div class="quiz-header">
-        <button class="back-btn" onclick="goHome()">&#8592;</button>
+        <button class="back-btn" onclick="goHome()" aria-label="Back to home">&#8592;</button>
         <div class="progress-info">Question Catalog</div>
         <div style="width:40px"></div>
       </div>
 
-      <div class="category-tabs">
-        <button class="category-tab active" onclick="filterCategory('all')">All</button>
-        <button class="category-tab" onclick="filterCategory('democracy')">Democracy</button>
-        <button class="category-tab" onclick="filterCategory('history')">History</button>
-        <button class="category-tab" onclick="filterCategory('society')">Society</button>
-        <button class="category-tab" onclick="filterCategory('berlin')">Berlin</button>
-      </div>
+      <nav class="category-tabs" role="tablist" aria-label="Question categories">
+        <button class="category-tab active" onclick="filterCategory('all')" role="tab" aria-selected="true">All</button>
+        <button class="category-tab" onclick="filterCategory('democracy')" role="tab">Democracy</button>
+        <button class="category-tab" onclick="filterCategory('history')" role="tab">History</button>
+        <button class="category-tab" onclick="filterCategory('society')" role="tab">Society</button>
+        <button class="category-tab" onclick="filterCategory('berlin')" role="tab">Berlin</button>
+      </nav>
 
-      <div class="catalog-list" id="catalog-list"></div>
-    </div>
+      <div class="catalog-list" id="catalog-list" role="list" aria-label="Questions"></div>
+    </section>
   </div>
 
   <script src="app.js"></script>
