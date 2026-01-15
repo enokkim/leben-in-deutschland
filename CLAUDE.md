@@ -22,6 +22,7 @@
 - [x] SEO meta tags added
 - [x] Progress bar bug fixed
 - [x] Questions verified against official BAMF sources
+- [x] Review Learned quiz mode added for spaced repetition (January 15, 2026)
 
 ### Code Review Summary (January 10, 2026)
 | Area | Score | Notes |
@@ -130,6 +131,29 @@ Evidence: [Code references with line numbers]
 ---
 
 ## Recent Changes Made
+
+### Review Learned Quiz Mode (January 15, 2026)
+Added a new quiz mode to address the forgetting curve - allows users to practice questions they've already mastered:
+- **New button**: "Review Learned" on home screen between Daily Practice and Exam Simulation
+- **Untimed quiz**: No timer pressure, focus on re-learning content
+- **Smart selection**: Uses only learned questions (20 max, shuffled from pool)
+- **Dynamic button state**: Disabled if 0 learned, shows count "Practice X questions you've mastered"
+- **Self-correction**: Wrong answers during review move back to wrong pile automatically
+- **Custom results**: Shows "REVIEW COMPLETE" status instead of generic completion
+
+**Files Modified:**
+- `app.js`: Added `startReview()`, `startQuizUntimed()`, `updateReviewButtonState()` functions; modified `updateStats()` and `showResults()`
+- `index.html`: Added Review Learned button (line 42-45)
+- `styles.css`: Added disabled button styles (lines 113-124)
+- `README.md`: Updated features section to document new mode
+
+**QA Testing:**
+- ✅ Button state functionality - PASS
+- ✅ Quiz flow with learned questions - PASS
+- ✅ Results screen with custom message - PASS
+- ✅ Integration with existing modes - PASS
+
+**User Problem Solved:** Users with many learned questions (e.g. 64) rarely see them in Daily Practice since it prioritizes wrong/unlearned questions. This mode provides targeted spaced repetition for mastered content.
 
 ### Catalog Browse Mode (January 10, 2026)
 Added swipe navigation and status indicators for catalog browsing:

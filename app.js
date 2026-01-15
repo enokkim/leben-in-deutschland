@@ -83,6 +83,23 @@ function updateStats() {
   document.getElementById('stat-learned').textContent = progress.learned.length;
   document.getElementById('stat-streak').textContent = progress.streak;
   document.getElementById('stat-total').textContent = questions.length;
+  updateReviewButtonState(progress.learned.length);
+}
+
+function updateReviewButtonState(learnedCount) {
+  const reviewBtn = document.getElementById('review-btn');
+  const reviewDesc = document.getElementById('review-btn-desc');
+  if (!reviewBtn || !reviewDesc) return;
+
+  if (learnedCount === 0) {
+    reviewBtn.disabled = true;
+    reviewBtn.classList.add('disabled');
+    reviewDesc.textContent = 'Complete questions first to unlock';
+  } else {
+    reviewBtn.disabled = false;
+    reviewBtn.classList.remove('disabled');
+    reviewDesc.textContent = 'Practice ' + Math.min(learnedCount, 20) + ' questions you\'ve mastered';
+  }
 }
 
 // Screen navigation
@@ -148,6 +165,30 @@ function startExam() {
   currentQuestions = [...general.slice(0, 30), ...berlin.slice(0, 3)];
   shuffleArray(currentQuestions);
   startQuiz(60 * 60); // 60 minutes
+}
+
+function startReview() {
+  currentMode = 'review';
+  const progress = loadProgress();
+  const learnedIds = new Set(progress.learned);
+  let pool = questions.filter(q => learnedIds.has(q.id));
+
+  shuffleArray(pool);
+  currentQuestions = pool.slice(0, 20);
+  startQuizUntimed();
+}
+
+function startQuizUntimed() {
+  currentIndex = 0;
+  correctCount = 0;
+  wrongCount = 0;
+  startTime = Date.now();
+  showScreen('quiz-screen');
+
+  if (timerInterval) clearInterval(timerInterval);
+  document.getElementById('quiz-timer').textContent = '';
+
+  showQuestion();
 }
 
 function startQuiz(seconds) {
@@ -365,6 +406,10 @@ function showResults() {
     messageEl.textContent = passed
       ? (citizenship ? 'You qualify for citizenship (17+)!' : 'You passed for residency (15+)!')
       : 'Need 15+ correct. Keep practicing!';
+  } else if (currentMode === 'review') {
+    statusEl.className = 'results-status pass';
+    statusEl.textContent = 'REVIEW COMPLETE';
+    messageEl.textContent = 'Review session finished! ' + correctCount + '/' + total + ' correct.';
   } else {
     statusEl.className = 'results-status pass';
     statusEl.textContent = 'COMPLETE';
@@ -442,13 +487,16 @@ function initSwipeHandlers() {
 
   let touchStartX = 0;
   let touchEndX = 0;
+  let touchMoved = false;  // Track if user actually moved their finger
 
   questionCard.addEventListener('touchstart', function(e) {
     touchStartX = e.changedTouches[0].screenX;
+    touchMoved = false;  // Reset on new touch
   }, { passive: true });
 
   questionCard.addEventListener('touchmove', function(e) {
     touchEndX = e.changedTouches[0].screenX;
+    touchMoved = true;  // Mark that movement occurred
 
     // Visual feedback during swipe
     const diff = touchEndX - touchStartX;
@@ -459,6 +507,13 @@ function initSwipeHandlers() {
   }, { passive: true });
 
   questionCard.addEventListener('touchend', function() {
+    // Only process if user actually moved their finger (not just a tap)
+    if (!touchMoved) {
+      touchStartX = 0;
+      touchEndX = 0;
+      return;
+    }
+
     const diff = touchEndX - touchStartX;
 
     // Clear visual feedback
@@ -611,6 +666,7 @@ function resetProgress() {
 // Expose functions globally for onclick handlers
 window.startPractice = startPractice;
 window.startExam = startExam;
+window.startReview = startReview;
 window.showCatalog = showCatalog;
 window.resetProgress = resetProgress;
 window.goHome = goHome;

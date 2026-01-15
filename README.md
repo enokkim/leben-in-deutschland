@@ -8,12 +8,14 @@ A mobile-friendly practice app for the German "Leben in Deutschland" (Life in Ge
 
 - **310 Bilingual Questions** - All official questions in German with English translations
 - **Berlin Edition** - Includes 10 state-specific questions for Berlin
-- **Tap-to-Reveal Translations** - Learn in German, check with English when needed
-- **Three Study Modes**:
-  - **Daily Practice** - 15-minute sessions with spaced repetition
+- **Language Toggle** - Switch between German and English with a tap
+- **Four Study Modes**:
+  - **Daily Practice** - 15-minute sessions with spaced repetition (prioritizes wrong/unlearned)
+  - **Review Learned** - Untimed practice of questions you've already mastered
   - **Exam Simulation** - 33 questions in 60 minutes (like the real test)
   - **Full Catalog** - Browse and practice individual questions by category
 - **Progress Tracking** - Remembers what you've learned across sessions
+- **Smart Spaced Repetition** - Questions you get wrong come back for more practice
 - **Streak Counter** - Stay motivated with daily practice streaks
 - **Mobile-First Design** - Works great on phones, tablets, and desktops
 - **Works Offline** - Add to home screen for app-like experience

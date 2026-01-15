@@ -110,6 +110,19 @@ body {
   color: var(--text-light);
 }
 
+.mode-btn.disabled,
+.mode-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.mode-btn.disabled:hover,
+.mode-btn:disabled:hover {
+  border-color: transparent;
+  transform: none;
+}
+
 .quiz-header {
   display: flex;
   justify-content: space-between;
